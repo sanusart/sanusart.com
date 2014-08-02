@@ -1,0 +1,10 @@
+# Site settings
+title: sanus|art
+email: sanusart@gmail.com
+description: "Description"
+baseurl: ""
+url: "http://sanusart.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

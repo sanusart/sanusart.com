@@ -1,0 +1,30 @@
+{
+  "name": "sanusart.com",
+  "version": "1.0.0",
+  "authors": [
+    "Sasha Khamkov <sanusart@gmail.com>"
+  ],
+  "description": "sanusart.com new website",
+  "main": "index.html",
+  "keywords": [
+    "sa",
+    "sanusart"
+  ],
+  "license": "Custom",
+  "homepage": "http://www.sanusart.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "normalize.css": "~3.0.1",
+    "modernizer": "~2.8.2",
+    "font-awesome": "~4.1.0"
+  }
+}
