@@ -3,14 +3,18 @@
 
 {% include head.html %}
 
-<body>
+<body class="page{% if page.url == '/' %}--home{% else %}--page-{{page.page_name}}{% endif %}">
 <sanusart role="main">
 
     {% include header.html %}
 
-        <content class="wrap">
-            {{ content }}
-        </content>
+    <content class="wrap">
+    {% if page.url == '/' %}
+        {% include home.html %}
+    {% else %}
+        {{ content }}
+    {% endif %}
+    </content>
 
     {% include side.html %}
     {% include footer.html %}

@@ -19,7 +19,7 @@
 
 $color-red: #cc333f;
 $color-purple: #392443;
-$color-yellow: #edc951;
+$color-yellow: #F5DA81/*#edc951*/;
 $color-blue: #00a0b0;
 $font-color: #fff;
 
@@ -32,6 +32,7 @@ $side-padding-width: 120;
 * {
   margin: 0;
   padding: 0;
+  -webkit-transition: 1ms ease;
 }
 
 html, body {
@@ -56,8 +57,8 @@ a {
   color: $color-blue;
   text-decoration: none;
   &:hover {
-    color: $color-yellow;
-    text-decoration: underline;
+    color: $color-red;
+    text-decoration: none;
   }
 }
 
@@ -94,8 +95,8 @@ header {
 logo {
   width: $side-padding-width+px;
   height: ($side-padding-width - 20)+px;
-  background: #cc333f;
-  color: white;
+  background: $color-red;
+  color: $font-color;
   display: inline-block;
   float: left;
   font: 67px 'spin_cycle';
@@ -103,6 +104,24 @@ logo {
   text-align: center;
   vertical-align: -webkit-baseline-middle;
   line-height: 117px;
+  & a {
+    color: $font-color;
+    &:hover {
+      color: $font-color;
+      text-shadow: 0px 0px 20px $font-color;
+    }
+  }
+}
+
+.sa-bg {
+  font: 567px 'spin_cycle';
+  letter-spacing: -60px;
+  opacity: .2;
+  z-index: -1;
+  position: fixed;
+  top: -50px;
+  right: 0;
+  transform: rotate(-40deg);
 }
 
 nav {
@@ -178,23 +197,45 @@ aside {
   }
 }
 
+
+
 /* Site footer */
 
 footer {
-  @extend utility;
+  margin: 1px 0px 0px ($side-padding-width + 1)+px;
+  background: $color-yellow;
+  padding: 20px;
+  display: inline-block;
   position: absolute;
   bottom: 0;
-  left:0;
+  right:0;
   letter-spacing: 0;;
   box-shadow: 0px 0px 20px #000;
   color:$color-purple;
   width: calc(100% - 161px);
+  & a {
+    color:$color-purple;
+  }
+}
+
+sa {
+  font-family: 'spin_cycle';
+  font-size: 30px;
+  letter-spacing: -3px;
+  font-weight: 100;
+  & span {
+    color:$color-blue;
+  }
 }
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/
 
 /* Home styles */
+.page--home utility {
+  //height: 60px;
+  padding: 0 40px 0 0px;
+}
 /* ----------------------------------------------------------*/
 
 /* Post styles */

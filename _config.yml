@@ -3,7 +3,7 @@ title: sanus|art
 email: sanusart@gmail.com
 description: "Description"
 baseurl: ""
-url: "http://sanusart.com"
+url: "http://localhost:4000"
 
 # Build settings
 markdown: kramdown

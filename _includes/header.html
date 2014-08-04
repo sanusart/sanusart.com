@@ -1,17 +1,15 @@
 <header class="wrap">
-    <logo>sa</logo>
-    <nav>
-        <ul>
-            <li><a href="">Home</a></li> |
-            <li><a href="">About</a></li> |
-            <li><a href="">Stuff</a></li> |
-            <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
+    <logo><a href="{{ site.url }}">sa</a></logo>
+    {% include nav.html %}
 </header>
 
 <utility>
-    <a href="">Home</a> <i class="fa fa-angle-right"></i>
-    <a href="">Category</a>  <i class="fa fa-angle-right"></i>
-    <a href=""><b>Page</b></a>
+    {% if page.url == '/' %}
+        <img src="http://1.gravatar.com/avatar/7ddad1a9a1c8de452badaf82b6c30c76?s=60&d=&r=G">
+    {% else %}
+        <a href="">Home</a> <i class="fa fa-angle-right"></i>
+        <a href="">Category</a>  <i class="fa fa-angle-right"></i>
+        <a href=""><b>Page</b></a>
+    {% endif %}
+
 </utility>

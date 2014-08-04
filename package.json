@@ -1,0 +1,23 @@
+{
+    "name": "sanusart.com",
+    "version": "1.0.0",
+    "description": "sanusart.com rewrite",
+    "main": "index.html",
+    "scripts": {
+        "test": "none",
+        "postInstall":"bower install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sanusart/sanusart.com.git"
+    },
+    "keywords": [
+        "sa"
+    ],
+    "author": "Sasha Khamkov <sanusart@gmail.com>",
+    "license": "Custom",
+    "bugs": {
+        "url": "https://github.com/sanusart/sanusart.com/issues"
+    },
+    "homepage": "https://github.com/sanusart/sanusart.com"
+}
