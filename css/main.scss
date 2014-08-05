@@ -1,5 +1,7 @@
 /* Base */
 
+@import "bourbon/bourbon";
+
 /* Fonts */
 
 @import url(http://fonts.googleapis.com/css?family=Exo:300,400,700,900);
@@ -19,7 +21,8 @@
 
 $color-red: #cc333f;
 $color-purple: #392443;
-$color-yellow: #F5DA81/*#edc951*/;
+$color-yellow: #F5DA81/*#edc951*/
+;
 $color-blue: #00a0b0;
 $font-color: #fff;
 
@@ -32,7 +35,7 @@ $side-padding-width: 120;
 * {
   margin: 0;
   padding: 0;
-  -webkit-transition: 1ms ease;
+  @include transition(all 1ms);
 }
 
 html, body {
@@ -102,7 +105,7 @@ logo {
   font: 67px 'spin_cycle';
   letter-spacing: -8px;
   text-align: center;
-  vertical-align: -webkit-baseline-middle;
+  vertical-align: middle;
   line-height: 117px;
   & a {
     color: $font-color;
@@ -116,12 +119,12 @@ logo {
 .sa-bg {
   font: 567px 'spin_cycle';
   letter-spacing: -60px;
-  opacity: .2;
+  opacity: .1;
   z-index: -1;
   position: fixed;
   top: -50px;
   right: 0;
-  transform: rotate(-40deg);
+  @include transform(  rotate(-40deg) );
 }
 
 nav {
@@ -149,12 +152,23 @@ nav {
 utility {
   margin: 1px 0px 0px ($side-padding-width + 1)+px;
   background: $color-yellow;
-  color:$color-red;
+  color: $color-red;
   padding: 20px;
   display: inline-block;
   width: calc(100% - 161px);
   & a {
-    color:$color-purple;
+    color: $color-purple;
+  }
+  & img {
+    float: left;
+  }
+  & p {
+    display: block;
+    padding: 0px 0px 0px 20px;
+    float: left;
+    line-height: 59px;
+    color: $color-purple;
+    font-weight:700;
   }
 }
 
@@ -162,7 +176,7 @@ content {
   margin: 1px 0px 0px ($side-padding-width + 1)+px;
   background: transparent;
   padding: 20px 0;
-  color:$font-color;
+  color: $font-color;
   display: inline-block;
   width: calc(1024px - 161px);
   & h1 {
@@ -173,6 +187,24 @@ content {
   }
   & h3 {
     font-size: 150%;
+  }
+  & blockquote {
+    padding: 20px 0px 20px 80px;
+    position: relative;
+    font-style: italic;
+    &:after {
+      content:"";
+    }
+    &:before {
+      content: "\201C";
+      position: absolute;
+      left: 0px;
+      font: 100px italic impact;
+      padding: 0;
+      margin: 0;
+      opacity: .2;
+      line-height: 83px;
+    }
   }
 }
 
@@ -186,18 +218,24 @@ aside {
     color: #887c8e;
     font-size: 40px;
     text-decoration: none;
+    text-shadow: 0px 0px 5px #000;
+    &:hover {
+      color: lighten(#887c8e, 20);
+      text-shadow: 0px 0px 20px #000;
+    }
     &:last-child {
       background: $color-red;
       display: block;
       text-align: center;
-      width: 35px;
-      height: 35px;
-      color:#fff;
+      width: 45px;
+      height: 45px;
+      color: $font-color;
+      line-height: 44px;
+      left: -5px;
+      position: relative;
     }
   }
 }
-
-
 
 /* Site footer */
 
@@ -208,13 +246,13 @@ footer {
   display: inline-block;
   position: absolute;
   bottom: 0;
-  right:0;
+  right: 0;
   letter-spacing: 0;;
   box-shadow: 0px 0px 20px #000;
-  color:$color-purple;
+  color: $color-purple;
   width: calc(100% - 161px);
   & a {
-    color:$color-purple;
+    color: $color-purple;
   }
 }
 
@@ -224,7 +262,7 @@ sa {
   letter-spacing: -3px;
   font-weight: 100;
   & span {
-    color:$color-blue;
+    color: $color-blue;
   }
 }
 
@@ -232,10 +270,36 @@ sa {
 /* ----------------------------------------------------------*/
 
 /* Home styles */
-.page--home utility {
-  //height: 60px;
-  padding: 0 40px 0 0px;
+.page--home {
+  & utility {
+    //height: 60px;
+    padding: 0 40px 0 0px;
+  }
+  & content a {
+    border: 1px solid;
+    font-size: 100px;
+    border-radius: 50%;
+    line-height: 160px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 80px 0px 0px;
+    background: rgba(255, 255, 255, .1);
+    @include transition(all .5s ease);
+    &:hover {
+      color: $color-yellow;
+      @include transform(rotate(360deg));
+    }
+    & span {
+      font-size: 20px;
+      display: block;
+      line-height: 0;
+    }
+  }
 }
+
+
 /* ----------------------------------------------------------*/
 
 /* Post styles */
