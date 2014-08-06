@@ -1,6 +1,6 @@
 /* Base */
 
-@import "bourbon/bourbon";
+@import 'bourbon/bourbon';
 
 /* Fonts */
 
@@ -166,9 +166,10 @@ utility {
     display: block;
     padding: 0px 0px 0px 20px;
     float: left;
+    font-size:20px;
     line-height: 59px;
     color: $color-purple;
-    font-weight:700;
+    font-weight:100;
   }
 }
 
@@ -179,6 +180,13 @@ content {
   color: $font-color;
   display: inline-block;
   width: calc(1024px - 161px);
+  min-height: calc(100% - 237px);
+  margin-bottom: -70px;
+  &:after {
+    content: "";
+    display: block;
+    height: 70px;
+  }
   & h1 {
     font-size: 170%;
   }
@@ -244,13 +252,11 @@ footer {
   background: $color-yellow;
   padding: 20px;
   display: inline-block;
-  position: absolute;
-  bottom: 0;
-  right: 0;
   letter-spacing: 0;;
   box-shadow: 0px 0px 20px #000;
   color: $color-purple;
   width: calc(100% - 161px);
+  height:30px;
   & a {
     color: $color-purple;
   }
