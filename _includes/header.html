@@ -8,11 +8,13 @@
 <utility>
 
     {% if page.url == '/' %}
-    <img src="http://1.gravatar.com/avatar/7ddad1a9a1c8de452badaf82b6c30c76?s=60&d=&r=G">
-    <p>Sasha is web developer</p>
+        <img src="http://1.gravatar.com/avatar/7ddad1a9a1c8de452badaf82b6c30c76?s=60&d=&r=G">
+        <p>Sasha is web developer</p>
     {% else %}
         <a href="">Home</a> <i class="fa fa-angle-right"></i>
-    {% if page.category != 'none' %}<a href="">{{ page.category }}</a> <i class="fa fa-angle-right"></i>{% endif %}
+        {% if page.category != 'none' %}
+            <a href="">{{ page.category }}</a> <i class="fa fa-angle-right"></i>
+        {% endif %}
         <a href=""><b>{{page.page_name}}</b></a>
     {% endif %}
 

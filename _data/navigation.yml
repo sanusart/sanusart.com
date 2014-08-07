@@ -1,0 +1,13 @@
+navigation:
+- text: Home
+  url: /
+  level: 1
+- text: About
+  url: /about/
+  level: 1
+- text: Stuff
+  url: /stuff/
+  level: 1
+- text: Contact
+  url: /contact/
+  level: 1

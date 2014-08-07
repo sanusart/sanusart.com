@@ -1,7 +1,7 @@
 <nav>
     <ul>
 
-        {% for link in site.navigation %}
+        {% for link in site.data.navigation %}
         <li>
             <a class="nav-link {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}"
            href="{% if forloop.first %}/{% else %}{{ link.url }}{% endif %}" target="_self">
