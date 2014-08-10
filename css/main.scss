@@ -139,6 +139,26 @@ nav {
     list-style-type: none;
     & li {
       display: inline-block;
+      > ul {
+        display: none;
+        background: #fff;
+        float: left;
+        position: absolute;
+        & li {
+          position: relative;
+          border-right:1px dotted $color-purple;
+          margin:10px 0;
+          &:last-child {
+            border:none;
+          }
+          & a {
+            line-height: ($side-padding-width / 3 )+px;
+            color: $color-blue;
+            margin: 32px;
+            font-size: 100%;
+          }
+        }
+      }
       & > a {
         line-height: ($side-padding-width - 20 )+px;
         color: $color-blue;

@@ -1,14 +1,25 @@
 <nav>
     <ul>
-
-        {% for link in site.navigation %}
-        <li>
-            <a class="nav-link {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}"
-           href="{% if forloop.first %}/{% else %}{{ link.url }}{% endif %}" target="_self">
-            {{ link.text }}
-            </a>
-        </li>
+        {% for link in site.data.navigation %}
+            {% if link.sub_id_of != 0 %}
+            {% else %}
+                <li id="nav-link-{{ link.linkid }}">
+                    <a class="nav-link {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}"
+                       href="{% if forloop.first %}/{% else %}{{ link.url }}{% endif %}" target="_self">
+                        {{ link.text }}
+                    </a>
+            {% endif %}
+                    {% if link.sub_id_of == 0 %}<ul>{% endif %}
+                    {% for sub_link in site.data.navigation %}
+                        {% if sub_link.sub_id_of == link.linkid %}
+                            <li><a href="{{sub_link.url}}">{{sub_link.text}}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                    {% if link.sub_id_of == 0 %}</ul>{% endif %}
+            {% if link.sub_id_of != 0 %}
+            {% else %}
+                </li>
+            {% endif %}
         {% endfor %}
-
     </ul>
 </nav>

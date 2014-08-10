@@ -105,6 +105,22 @@ nav {
     list-style-type: none; }
     nav ul li {
       display: inline-block; }
+      nav ul li > ul {
+        display: none;
+        background: #fff;
+        float: left;
+        position: absolute; }
+        nav ul li > ul li {
+          position: relative;
+          border-right: 1px dotted #392443;
+          margin: 10px 0; }
+          nav ul li > ul li:last-child {
+            border: none; }
+          nav ul li > ul li a {
+            line-height: 40px;
+            color: #00a0b0;
+            margin: 32px;
+            font-size: 100%; }
       nav ul li > a {
         line-height: 100px;
         color: #00a0b0;

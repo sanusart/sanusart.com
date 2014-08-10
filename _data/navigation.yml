@@ -1,0 +1,34 @@
+- linkid: 1
+  text: Home
+  url: /
+  sub_id_of: 0
+
+- linkid: 2
+  text: About
+  url: /about/
+  sub_id_of: 0
+
+- linkid: 3
+  text: Stuff
+  url: /stuff/
+  sub_id_of: 0
+
+- linkid: 4
+  text: Blog
+  url: /blog/
+  sub_id_of: 3
+
+- linkid: 5
+  text: Downloads
+  url: /downloads/
+  sub_id_of: 3
+
+- linkid: 6
+  text: Contact
+  url: /contact/
+  sub_id_of: 0
+
+- linkid: 7
+  text: Cv
+  url: /cv/
+  sub_id_of: 2
