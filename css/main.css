@@ -181,9 +181,14 @@ content {
       margin: 0;
       opacity: .2;
       line-height: 83px; }
+  content p {
+    padding: 0px 0px 16px 0px; }
+  content img {
+    float: left;
+    padding: 20px 30px 20px 0; }
 
 aside {
-  position: absolute;
+  position: fixed;
   left: 40px;
   bottom: 16px;
   width: 35px;

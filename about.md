@@ -1,19 +1,21 @@
 ---
 layout: page
-title: About
+title: Welcome to Sanus Artificium
 page_name: about
 category: none
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Sanus Artificium is the place where you can find free software for music creation, music downloads, sound engineering information like mixing recording editing, tips tricks, a few how-to’s and much more.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+![Sasha](http://www.sanusart.com/wp-content/uploads/sasha.jpg)
 
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+My name is Sasha.
 
+I was born November 23th,1980 in former USSR republic of Belarus and at age 11 successfully immigrated to Israel with my [family](/photos/).
 
+I am older between two brothers.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+At August 28th, 2008 I’ve married my high-school sweetheart Katy and we both live happily in Jerusalem, Israel. At June of 2011 we had addition to our little family – our wonderful daughter Emily was born.
+
+Sound engineer by profession but my other big passion is web and currently my main day job is web applications designer and developer.

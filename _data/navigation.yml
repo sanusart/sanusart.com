@@ -9,19 +9,19 @@
   sub_id_of: 0
 
 - linkid: 3
+  text: Blog
+  url: /blog/
+  sub_id_of: 0
+
+- linkid: 4
   text: Stuff
   url: /stuff/
   sub_id_of: 0
 
-- linkid: 4
-  text: Blog
-  url: /blog/
-  sub_id_of: 3
-
 - linkid: 5
   text: Downloads
   url: /downloads/
-  sub_id_of: 3
+  sub_id_of: 4
 
 - linkid: 6
   text: Contact
