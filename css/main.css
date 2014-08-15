@@ -72,7 +72,8 @@ logo {
   letter-spacing: -8px;
   text-align: center;
   vertical-align: middle;
-  line-height: 117px; }
+  line-height: 117px;
+  box-shadow: 3px 0px 30px #111; }
   logo a {
     color: white; }
     logo a:hover {
@@ -100,7 +101,8 @@ nav {
   margin: 0px 0px 0px 1px;
   color: #cc333f;
   display: inline-block;
-  float: left; }
+  float: left;
+  box-shadow: 3px -4px 10px #222; }
   nav ul {
     list-style-type: none; }
     nav ul li {
@@ -133,8 +135,9 @@ utility {
   color: #cc333f;
   padding: 20px;
   display: inline-block;
-  width: calc(100% - 161px); }
-  utility a {
+  width: calc(100% - 161px);
+  box-shadow: -3px 6px 10px #222; }
+  utility a, utility b {
     color: #392443; }
   utility img {
     float: left; }
@@ -190,7 +193,7 @@ content {
 aside {
   position: fixed;
   left: 40px;
-  bottom: 16px;
+  bottom: 26px;
   width: 35px;
   background: transparent; }
   aside a {
@@ -268,6 +271,16 @@ sa {
 /* ----------------------------------------------------------*/
 /* Post styles */
 /* ----------------------------------------------------------*/
+.page--page-blog article a.post-list-item {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  box-shadow: 0px 0px 20px #222;
+  background: rgba(255, 255, 255, 0.15);
+  display: block;
+  width: 100%; }
+  .page--page-blog article a.post-list-item:hover {
+    box-shadow: 0px 0px 20px #555; }
+
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 .highlight {

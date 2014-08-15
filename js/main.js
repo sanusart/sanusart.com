@@ -1,4 +1,8 @@
-/**
- * Created by sasha on 7/31/14.
- */
-'use strict';
+$(function(){
+    $('nav ul li').hover(function(){
+        $(this).find('ul').toggle();
+    });
+
+    InstantClick.init();
+
+});

@@ -1,18 +1,18 @@
 ---
 layout: post
 
-title:  "Welcome to Jekyll!!!"
+title:  "Another post of some kind"
 date:   2014-07-31 10:01:53
 
 category: Blog
 category_url: /blog/
 
-seo_title: "Welcome to Jekyll!!!"
-seo_description: "Welcome to Jekyll!!!"
+seo_title: "Another post of some kind"
+seo_description: "Another post of some kind"
 
-categories: jekyll update
+categories: jekyll update blog
 
-permalink: /blog/welcome-la-la-la
+permalink: /blog/another-post-of-some-kind
 
 ---
 

@@ -5,7 +5,7 @@
             {% else %}
                 <li id="nav-link-{{ link.linkid }}">
                     <a class="nav-link {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}"
-                       href="{% if forloop.first %}/{% else %}{{ link.url }}{% endif %}" target="_self">
+                       href="{% if forloop.first %}/{% else %}{{ link.url }}{% endif %}">
                         {{ link.text }}
                     </a>
             {% endif %}

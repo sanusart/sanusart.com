@@ -13,15 +13,10 @@
   url: /blog/
   sub_id_of: 0
 
-- linkid: 4
-  text: Stuff
-  url: /stuff/
-  sub_id_of: 0
-
 - linkid: 5
-  text: Downloads
-  url: /downloads/
-  sub_id_of: 4
+  text: Projects
+  url: /projects/
+  sub_id_of: 0
 
 - linkid: 6
   text: Contact
@@ -31,4 +26,9 @@
 - linkid: 7
   text: Cv
   url: /cv/
+  sub_id_of: 2
+
+- linkid: 8
+  text: Portfolio
+  url: /portfolio/
   sub_id_of: 2
