@@ -21,13 +21,20 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight liquid %}
+{% raw %}
+{% for post in paginator.posts %}
+   <div class="author">{{ post.date | date_to_string }}</div>
+   <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
+   <div class="content">
+       {{ post.content | split:"<!--break-->" | first }}
+   </div>
+   <b><a href="{{ BASE_PATH }}{{ post.url }}">continue reading >></a></b>
+   <hr/>
+{% endfor %}
+{% endraw %}
 {% endhighlight %}
+
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 

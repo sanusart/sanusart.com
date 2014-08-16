@@ -3,6 +3,7 @@ $(function(){
         $(this).find('ul').toggle();
     });
 
-    InstantClick.init();
-
+    InstantClick.init('mousedown');
 });
+
+
