@@ -26,9 +26,6 @@
     "normalize.css": "~3.0.1",
     "modernizer": "~2.8.2",
     "font-awesome": "~4.1.0",
-    "lodash": "~2.4.1",
-    "angularjs": "~1.2.22",
-    "angular-route": "~1.2.22",
     "instantclick": "~3.0.1"
   }
 }
