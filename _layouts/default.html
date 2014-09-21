@@ -3,7 +3,22 @@
 
 {% include head.html %}
 
-<body class="page{% if page.url == '/' %}--home{% else %}--page-{{page.page_name}}{% endif %}">
+{% if page.url == '/' %}
+    {% assign class = 'home' %}
+{% elsif page.collection %}
+    {% assign class = page.collection %}
+    {% assign class2 = ' type--collection' %}
+{% elsif page.page_name %}
+    {% assign class = page.page_name %}
+    {% assign class2 = ' type--page' %}
+{% else %}
+    {% assign class = 'page-default' %}
+{% endif %}
+
+{% assign class3 = page.layout %}
+
+<body class="page--{{class}}{{class2}} layout-{{class3}} title--{{page.title | replace: ' ':'-' | replace: '&amp;':'-' | replace: '.':'-' | replace: '?':'-' | replace: '!':'-' | replace: ',':'-' | downcase }}">
+
 <sanusart role="main">
 
     {% include header.html %}

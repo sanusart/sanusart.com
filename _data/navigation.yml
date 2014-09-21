@@ -25,30 +25,25 @@
 
 - linkid: 7
   text: Cv
-  url: /cv/
+  url: /about/cv/
   sub_id_of: 2
 
 - linkid: 8
   text: Portfolio
-  url: /portfolio/
+  url: /about/portfolio/
   sub_id_of: 2
 
 - linkid: 9
   text: Code
-  url: /code/
+  url: /projects/code/
   sub_id_of: 5
 
 - linkid: 10
   text: Music
-  url: /music/
+  url: /projects/music/
   sub_id_of: 5
 
 - linkid: 11
   text: VST
-  url: /vst/
-  sub_id_of: 5
-
-- linkid: 12
-  text: VSTi
-  url: /vsti/
+  url: /projects/vst/
   sub_id_of: 5

@@ -2,11 +2,24 @@
 title: sanus|art
 email: sanusart@gmail.com
 description: "Description"
-baseurl: ""
 year: 2014
-highlighter: true
-url: "http://localhost:4000"
+highlighter: pygments
+url: "http://dev.sa.com"
 
-# Build settings
+author: '<a target="_blank" href="https://plus.google.com/111862979601357461785" rel="publisher">Sasha Khamkov</a>'
+
+baseurl: ""
+port:    4000
+host:    0.0.0.0
+
 markdown: kramdown
 permalink: pretty
+
+include: [.htaccess]
+exclude: [.gitignore, .bowerrc, jmk, package.json, gulpfile.js, node_modules]
+
+collections:
+  codes:
+    output: true
+  vsts:
+    output: true

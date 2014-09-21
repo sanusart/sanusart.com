@@ -1,0 +1,14 @@
+- id: 1
+  text: Code
+  url: /projects/code/
+  icon: fa-code
+
+- id: 2
+  text: Music
+  url: /projects/music/
+  icon: fa-music
+
+- id: 3
+  text: VST
+  url: /projects/vst/
+  icon: fa-puzzle-piece

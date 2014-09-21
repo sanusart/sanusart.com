@@ -15,3 +15,8 @@ It is time
 - bower
 - font-awesome
 - spin cycle (font)
+
+### Build
+
+Run `$ npm install`
+Run '$ gulp'

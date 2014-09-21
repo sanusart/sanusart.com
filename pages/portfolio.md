@@ -3,13 +3,14 @@ layout: page
 title: Portfolio
 page_name: portfolio
 
-category: About
-category_url: /about/
+category:
+  - name: About
+    url: /about/
 
 seo_title: Portfolio
 seo_description: Portfolio
 
-permalink: /portfolio/
+permalink: /about/portfolio/
 ---
 
 Projects of all kinds and flavors

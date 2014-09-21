@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{% if page.seo_description %}{{ page.seo_description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <script type="text/javascript" src="/assets/modernizer/modernizr.js"></script>
-    <link rel="stylesheet" type="text/css" href="/assets/normalize.css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/assets/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/modernizer/modernizr.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css">
 </head>

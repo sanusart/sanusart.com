@@ -1,9 +1,12 @@
-$(function(){
-    $('nav ul li').hover(function(){
-        $(this).find('ul').toggle();
+$(function () {
+
+    // Instant click
+    InstantClick.init('mousedown');
+
+    $('code').each(function (i, block) {
+        hljs.highlightBlock(block);
     });
 
-    InstantClick.init('mousedown');
-});
 
+});
 

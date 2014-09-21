@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+    <p class="meta">{{ page.date | date: "%b %-d, %Y" }} by <b>{{ site.author }}</b></p>
+  </header>
+
+  <article class="post-content">
+
+  {{ content }}
+
+<div class="buttons">
+  {% if page.download %}
+      <a href="{{page.download}}" class="button"><i class="fa fa-download"></i> Download</a>
+  {% endif %}
+
+  {% if page.demo %}
+      {% for d in page.demo %}
+    <a href="{{d.url}}" target="_blank" class="button"><i class="fa {% if d.icon == 'default' %}fa-eye{% else%}{{d.icon}}{% endif%}"></i> Demo</a>
+      {% endfor %}
+  {% endif %}
+
+  {% if page.github %}
+    <a href="{{page.github}}" target="_blank" class="button"><i class="fa fa-github"></i> Fork it</a>
+  {% endif %}
+
+    </div>
+      <!-- disqus HERE -->
+
+  </article>
+
+</div>

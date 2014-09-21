@@ -11,6 +11,12 @@ show_usage() {
     echo -e "\tCrete custom post:\t - 'jmk _custom_post_name postname'";
 }
 
+file_exists() {
+if [ -f  "$1.md" ]
+    then echo -e "$1.md exists" && exit
+fi
+}
+
 create_file() {
     touch "$2.md"
     echo "---
@@ -32,14 +38,13 @@ This is first paragraph" >> "$2.md"
 
 if [ -z "$1" ]
     then show_usage;
-#elif [ -f  "$1.md" ]
-#    then echo -e "$1.md exists"
 elif [ $1 = "page" ]
-    then echo -e "Create page $2.md"
+    [[ -f  "$1.md" ]] && echo -e "$1.md exists" && exit 1;
     create_file 'page' $2
+    then echo -e "Create page $2.md"
 elif [ $1 = "post" ]
-    then echo -e "Create post $2.md"
     create_file 'post' "_posts/$DATE-$2"
+    then echo -e "Create post $2.md"
 else
     show_usage;
 fi
