@@ -20,9 +20,11 @@ tags:
   - synthesizer
 
 demo:
-  - url: http://jsfiddle.net/paLBA/
+  - url: https://www.youtube.com/watch?v=EtWAxDFBNxg
     icon: fa-youtube
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
+download: "B-asault_VSTi.zip"
+image: "b-asault-vsti_src_1.jpg"
 ---
+
 B-asault VSTi is a subtractive synthesizer with 2 waveform oscillators, arpeggiator, ADSR envelope. LFO. LP/BP/HP filters. Mono mode. Pitch wheel switching to joystick

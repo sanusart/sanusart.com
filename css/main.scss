@@ -329,9 +329,9 @@ content {
   }
   & img {
     float: left;
-    padding: 20px 30px 20px 0;
+    margin: 0px 30px 20px 0;
+    box-shadow: -3px 6px 10px #222;
   }
-
   & ul {
     list-style-position: inside;
     list-style-type: square;
@@ -434,7 +434,8 @@ article a.post-list-item {
     }
     & img {
       float: left;
-      padding: 0px 30px 20px 0;
+      margin: 0px 30px 20px 0;
+      box-shadow: -3px 6px 10px #222;
     }
   }
 }

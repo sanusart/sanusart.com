@@ -9,12 +9,16 @@ layout: default
   </header>
 
   <article class="post-content">
-
+  {% if page.image %}<img src="{{site.baseurl}}/images/{{ page.image }}" alt="{{ page.seo_title }}">{% endif %}
   {{ content }}
 
 <div class="buttons">
   {% if page.download %}
-      <a href="{{page.download}}" class="button"><i class="fa fa-download"></i> Download</a>
+    {% if page.download contains 'http://' or page.download contains 'https://' %}
+        <a href="{{page.download}}" class="button"><i class="fa fa-download"></i> Download</a>
+    {% else%}
+        <a href="{{site.baseurl}}/images/{{page.download}}" class="button"><i class="fa fa-download"></i> Download</a>
+    {% endif %}
   {% endif %}
 
   {% if page.demo %}

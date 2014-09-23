@@ -15,7 +15,7 @@ permalink: /projects/music/
 
 Here are two types of trucks:
 
-- Music composed for competitions at <a href="https://www.sanusart.com/wp-content/uploads/www.kvraudio.com" target="_blank">kvraudio.com</a> music cafe.
+- Music composed for competitions at <a href="https://www.sanusart.com/wp-content/images/www.kvraudio.com" target="_blank">kvraudio.com</a> music cafe.
 
 - Various music composed with no particular purpose in mind (lower on this page)
 

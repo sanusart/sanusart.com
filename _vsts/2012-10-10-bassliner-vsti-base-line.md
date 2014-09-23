@@ -20,9 +20,10 @@ tags:
   - baseline
 
 demo:
-  - url: http://jsfiddle.net/paLBA/
+  - url: https://www.youtube.com/watch?v=wPvDGU0HerE
     icon: fa-youtube
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
+download: BassLiner_VSTi.zip
+image: bassliner-vsti_src_1.gif
 ---
 BassLiner VSTi is basic bass line synthesizer plug-in generating signal from two multi-waveform oscillators.

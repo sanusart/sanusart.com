@@ -23,6 +23,12 @@ gulp.task('server', ['jekyll-build'], function () {
     });
 });
 
+gulp.task('sass', function () {
+    gulp.src('./css/main.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('./css'));
+});
+
 gulp.task('css',['move-fonts'], function () {
     gulp.src([
         './assets/normalize.css/normalize.css',
@@ -64,4 +70,4 @@ gulp.task('watch',function() {
 /**
  * Compile the jekyll site & watch files.
  */
-gulp.task('default', ['js','css','html']);
+gulp.task('default', ['sass','js','css','html']);

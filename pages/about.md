@@ -16,7 +16,7 @@ Sanus Artificium is the place where you can find free software for music creatio
 
 # Small, brief biography
 
-![sasha](/uploads/sasha.jpg)
+![sasha](/images/sasha.jpg)
 
 Although there are a lot of &#8220;we&#8221; and &#8220;us&#8221; on this website as you might notices (or not), Sanus artificium is an one person project.
 
@@ -57,7 +57,7 @@ Licenses and read-me files mostlly come in .pdf format so you will need [adobe r
 09/06/2012
 <big>Have fun !</big>
 
- [1]: http://www.sanusart.com/wp-content/uploads/Alexander#Variants_and_diminutives
+ [1]: http://www.sanusart.com/wp-content/images/Alexander#Variants_and_diminutives
  [2]: /music/ "Music"
  [3]: /vst-plugins/
  [4]: /scripts/
@@ -66,4 +66,4 @@ Licenses and read-me files mostlly come in .pdf format so you will need [adobe r
  [7]: http://www.izarc.org
  [8]: http://www.winzip.com
  [9]: http://www.rarlab.com
- [10]: http://www.sanusart.com/wp-content/uploads/reader
+ [10]: http://www.sanusart.com/wp-content/images/reader

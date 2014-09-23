@@ -25,7 +25,7 @@ demo:
 
 download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
 github: https://github.com/sanusart/Image-Side-Slide
+image: "image-side-slide-jquery-plugin_src_1.png"
 
 ---
-![Image Side Slide jQuery plug-in]({{site.baseurl}}/uploads/image-side-slide-jquery-plugin_src_1-300x98.png)
 jQuery plug-in which will slide/animate background image position of an DOM element through number of predefined positions.

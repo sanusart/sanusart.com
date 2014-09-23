@@ -19,7 +19,7 @@ author: '<a target="_blank" href="https://plus.google.com/111862979601357461785"
 permalink: /blog/gisto-cross-platform-github-gists-snippets-management-tool-for-desktop
 
 ---
-[<img class="alignleft size-medium wp-image-794" alt="Gisto" src="http://www.sanusart.com/wp-content/uploads/Screenshot-from-2013-07-20-214450-300x168.png" width="300" height="168" />][1]
+[<img class="alignleft size-medium wp-image-794" alt="Gisto" src="http://www.sanusart.com/wp-content/images/Screenshot-from-2013-07-20-214450-300x168.png" width="300" height="168" />][1]
 
 In a last past month me and my colleague <a title="@maayanglikser" href="http://twitter.com/maayanglikser" target="_blank">@maayanglikser</a> was busy authoring a little open source project of ours, &#8220;gisto&#8221;. Gisto is an cross-platform code/note snippets management tool using GitHub&#8217;s gist API to save, retrieve and manage code snippets or any textual data on that matter.
 
@@ -56,7 +56,7 @@ The code is available at <a href="https://github.com/Gisto/Gisto" target="_blan
 
 You can download it from the project website <a href="http://www.gistoapp.com/" target="_blank">www.gistoapp.com</a> or fork it on <a href="https://github.com/Gisto/Gisto" target="_blank">GitHub</a>
 
- [1]: http://www.sanusart.com/wp-content/uploads/Screenshot-from-2013-07-20-214450.png
+ [1]: http://www.sanusart.com/wp-content/images/Screenshot-from-2013-07-20-214450.png
  [2]: http://angularjs.org/
  [3]: http://nodejs.org/
  [4]: https://github.com/rogerwang/node-webkit
