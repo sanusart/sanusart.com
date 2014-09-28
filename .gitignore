@@ -10,3 +10,4 @@ fonts/fontawesome-webfont.woff
 downloads/*
 !downloads/.gitkeep
 .sass-cache
+jekyll-export
