@@ -578,17 +578,16 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   opacity: 0.5;
 }
 
-@import url(//fonts.googleapis.com/css?family=Exo:300,400,700,900);
 /* Base */
 /* Mixins */
 /* Fonts */
+@import url(//fonts.googleapis.com/css?family=Exo:300,400,700,900);
 @font-face {
   font-family: 'spin_cycle';
-  src: url('../fonts/spincycle_ot-webfont.eot');
-  src: url('../fonts/spincycle_ot-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/spincycle_ot-webfont.woff') format('woff'), url('../fonts/spincycle_ot-webfont.ttf') format('truetype'), url('../fonts/spincycle_ot-webfont.svg#spin_cycle_otregular') format('svg');
+  src: url("../fonts/spincycle_ot-webfont.eot");
+  src: url("../fonts/spincycle_ot-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/spincycle_ot-webfont.woff") format("woff"), url("../fonts/spincycle_ot-webfont.ttf") format("truetype"), url("../fonts/spincycle_ot-webfont.svg#spin_cycle_otregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 /* Palette */
 /* Vars */
 /* ----------------------------------------------------------*/
@@ -625,7 +624,8 @@ a {
     text-decoration: none; }
 
 /* Utility */
-.wrap:before, .wrap:after {
+.wrap:before,
+.wrap:after {
   content: "";
   display: table; }
 
@@ -667,7 +667,7 @@ logo {
 .sa-bg {
   font: 567px 'spin_cycle';
   letter-spacing: -60px;
-  opacity: 0.1;
+  opacity: .1;
   z-index: -1;
   position: fixed;
   top: -50px;
@@ -788,7 +788,7 @@ content {
       font: 100px italic impact;
       padding: 0;
       margin: 0;
-      opacity: 0.2;
+      opacity: .2;
       line-height: 83px; }
   content p, content ul {
     padding: 0px 0px 16px 0px;
@@ -949,7 +949,7 @@ article a.post-list-item {
 .layout-item content .buttons {
   text-align: right; }
 .layout-item content img {
-  float: left;
+  floyat: left;
   margin: 0px 30px 20px 0;
   box-shadow: -3px 6px 10px #222; }
 
@@ -967,6 +967,5 @@ code {
 
 /* media queries */
 /* ----------------------------------------------------------*/
-@media screen and (max-width: 750px) { }
 
-@media screen and (max-width: 600px) { }
+/*# sourceMappingURL=main.css.map */

@@ -5,7 +5,7 @@ var concat = require('gulp-concat');
 var minifyHTML = require('gulp-minify-html');
 var connect = require('gulp-connect');
 
-gulp.task('move-fonts', function(){
+gulp.task('move-fonts', function () {
     gulp.src('./assets/font-awesome/fonts/*')
         .pipe(gulp.dest('./fonts/'));
 });
@@ -29,7 +29,7 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('./css'));
 });
 
-gulp.task('css',['move-fonts'], function () {
+gulp.task('css', ['move-fonts'], function () {
     gulp.src([
         './assets/normalize.css/normalize.css',
         './assets/font-awesome/css/font-awesome.min.css',
@@ -42,10 +42,10 @@ gulp.task('css',['move-fonts'], function () {
 
 gulp.task('js', function () {
     gulp.src([
-            './assets/jquery/dist/jquery.min.js',
-            './assets/highlightjs/highlight.pack.js',
-            './assets/instantclick/instantclick.js',
-            './js/main.js'])
+        './assets/jquery/dist/jquery.min.js',
+        './assets/highlightjs/highlight.pack.js',
+        './assets/instantclick/instantclick.js',
+        './js/main.js'])
 //        .pipe(uglify())
         .pipe(concat('script.js'))
         .pipe(gulp.dest('./js/'))
@@ -60,7 +60,7 @@ gulp.task('html', ['jekyll-build'], function () {
         .pipe(gulp.dest('./_site/'))
 });
 
-gulp.task('watch',function() {
+gulp.task('watch', function () {
     //gulp.watch('./js/*.js',['minify-js','minify-html']);
     //gulp.watch('./**/*.md',['minify-html']);
     //gulp.watch(['./**/*.html','!./site/**/*.html'],['minify-html']);
@@ -68,6 +68,6 @@ gulp.task('watch',function() {
 });
 
 /**
- * Compile the jekyll site & watch files.
+ * Compile the jekyll site
  */
-gulp.task('default', ['sass','js','css','html']);
+gulp.task('default', ['sass', 'js', 'css', 'html']);

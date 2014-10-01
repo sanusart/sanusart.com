@@ -15,11 +15,11 @@ categories: gisto angularjs
 
 tags: gisto angularjs
 
-author: '<a target="_blank" href="https://plus.google.com/111862979601357461785" rel="publisher">Sasha Khamkov</a>'
 permalink: /blog/custom-roles-in-wordpress/
+image: wordpress-logo-stacked-rgb.png
 ---
 
-![WordPress](/images/wordpress-logo-stacked-rgb-e1350345712329.png) It is a known security suggestion that the website is better off without user with username &#8220;admin&#8221;  in it&#8217;s back-end.
+It is a known security suggestion that the website is better off without user with username &#8220;admin&#8221;  in it&#8217;s back-end.
 
 Another concern (on none security matter) is a site administrator with small or total lack of WordPress knowledge &#8211; something that can lead to mismanaged, messy content entering or even worse &#8211; layout breakage.
 
