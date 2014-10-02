@@ -19,10 +19,8 @@ tags:
   - music
   - synthesizer
 
-demo:
-  - url: http://jsfiddle.net/paLBA/
-    icon: fa-youtube
+download: "Oscill8tor_VSTi.zip"
+image: "oscill8tor-vsti_f_1_300_1.jpg"
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
 ---
 Oscill8tor VSTi is a subtractive synthesizer which generates signal from 8 oscillators simultaneously if desired. Each oscillator has 7 wave samples, 5 types of filter, wide octave range and ADSR on output.

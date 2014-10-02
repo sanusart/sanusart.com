@@ -20,9 +20,11 @@ tags:
   - effect
 
 demo:
-  - url: http://jsfiddle.net/paLBA/
+  - url: https://www.youtube.com/watch?v=J2sewmLxap0
     icon: fa-youtube
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
+download: "Fernando_VSTi.zip"
+image: "fernando-vsti_src_1.jpg"
+
 ---
-Fernando VSTi is a subtractive synthesizer with different controll options over 3 of it&#8217;s oscillators with ADSR envelopes, addition of Distortion, Flanger, Delay effects and arpeggiator.
+Fernando VSTi is a subtractive synthesizer with different control options over 3 of it&#8217;s oscillators with ADSR envelopes, addition of Distortion, Flanger, Delay effects and arpeggiator.

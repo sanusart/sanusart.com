@@ -19,10 +19,9 @@ tags:
   - music
   - effect
 
-demo:
-  - url: http://jsfiddle.net/paLBA/
-    icon: fa-youtube
+download: "SplitGateVST.zip"
+image: "splitgate-vst_src_1.jpg"
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
 ---
+
 Free Left/right separate controlled 16 or 32 steps gate effect [not MIDI]. Sometimes called &#8220;trance gate&#8221;. It has full left/right channel separation and stereo abilities.

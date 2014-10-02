@@ -19,10 +19,8 @@ tags:
   - music
   - sampler
 
-demo:
-  - url: http://jsfiddle.net/paLBA/
-    icon: fa-youtube
+download: "WaveSamplerXLblue_VSTi.zip"
+image: "wavesamplerxl-vsti_src_1.jpg"
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
 ---
 WaveSamplerXL VSTi is a sampler/sample player with wide variety of features for better sample manipulation. It has built-in LFO, arpeggiator, ADSR, pitch wheel and filters which will provide complete sample &#8220;regeneration&#8221;.

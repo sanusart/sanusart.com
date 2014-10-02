@@ -19,10 +19,9 @@ tags:
   - music
   - vsti
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
+download: "Sanus_artificium_Full_VST_Pack.zip"
+image: "full_vst_pack.jpg"
+
 ---
 
-Full Sanus|artificium VST/VSTi plug-in pack includes package of 5 VST effects and 12 VST instruments in one download. The file is self-installing .exe compressed in 7zip archive &#8211; which means it can be also extracted to the desired location.
-
-<div>
-</div>
+Full Sanus\|artificium VST/VSTi plug-in pack includes package of 5 VST effects and 12 VST instruments in one download. The file is self-installing .exe compressed in 7zip archive &#8211; which means it can be also extracted to the desired location.

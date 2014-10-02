@@ -19,10 +19,8 @@ tags:
   - music
   - baseline
 
-demo:
-  - url: http://jsfiddle.net/paLBA/
-    icon: fa-youtube
+download: "SoundFonter_VSTi.zip"
+image: "soundfonter-vsti_src_1.jpg"
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
 ---
 SoundFonter VSTi is a very simple sound font (sf2) format sampler with range of 3 octaves delay and filter built-in.

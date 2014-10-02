@@ -20,11 +20,9 @@ tags:
   - drum
   - sampler
 
-demo:
-  - url: http://jsfiddle.net/paLBA/
-    icon: fa-youtube
+download: "ds-1.zip"
+image: "ds-1vsti_src_1.jpg"
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
 ---
 
 Ds-1 VSTi is a simple 8 Pad Drum Sampler. Each pad has its own pitch, panning, LP/HP filter, delay and volume slider.

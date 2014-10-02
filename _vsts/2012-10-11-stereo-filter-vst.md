@@ -19,10 +19,9 @@ tags:
   - music
   - effect
 
-demo:
-  - url: http://jsfiddle.net/paLBA/
-    icon: fa-youtube
+download: "StereoFilter_VST.zip"
+image: "stereofilter-VST_src_1.jpg"
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
 ---
+
 Free Left/right separate controlled filter VST effect with synced LFO per each channel and built-in delay.

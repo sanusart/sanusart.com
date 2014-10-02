@@ -20,9 +20,11 @@ tags:
   - effect
 
 demo:
-  - url: http://jsfiddle.net/paLBA/
+  - url: https://www.youtube.com/watch?v=cSQdQX2iOYk
     icon: fa-youtube
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
+download: "DelKaTy_VST.zip"
+image: "delkaty-vst_src_1.jpg"
+
 ---
 Unusual stereo delay effect, affecting signal by using synced LFO and filtering abilities with low pass/high pass filters. Panning also affected by LFO.

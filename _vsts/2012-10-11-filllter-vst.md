@@ -20,9 +20,12 @@ tags:
   - effect
 
 demo:
-  - url: http://jsfiddle.net/paLBA/
+  - url: https://www.youtube.com/watch?v=hWMH6XOd3hE
     icon: fa-youtube
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
+download: "Filllter_VST.zip"
+image: "filllter-VST_src_1.jpg"
+
 ---
+
 **Filllter** is a simple LP / HP / BP / Notch / Moog filter plug-in.

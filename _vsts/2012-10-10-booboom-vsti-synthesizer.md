@@ -19,10 +19,8 @@ tags:
   - music
   - synthesizer
 
-demo:
-  - url: http://jsfiddle.net/paLBA/
-    icon: fa-youtube
+download: "BooBoom_VSTi.zip"
+image: "booboom-vsti_src_1.jpg"
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
 ---
 BooBoom VSTi is subtractive synthesizer with two &#8211; closely synchronization oscillators, variety of filters, effects and envelopes.

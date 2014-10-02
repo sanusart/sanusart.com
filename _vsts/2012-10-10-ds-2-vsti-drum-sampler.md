@@ -20,11 +20,9 @@ tags:
   - drum
   - sampler
 
-demo:
-  - url: http://jsfiddle.net/paLBA/
-    icon: fa-youtube
+download: "DS2_VSTi.zip"
+image: "ds2-vsti_src_1.jpg"
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
 ---
 
 ## DS2 VSTi free drum sampler

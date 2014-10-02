@@ -17,6 +17,7 @@ tags: gisto angularjs
 
 permalink: /blog/gisto-cross-platform-github-gists-snippets-management-tool-for-desktop
 image: Screenshot-from-2013-07-20-214450.png
+
 ---
 
 In a last past month me and my colleague <a title="@maayanglikser" href="http://twitter.com/maayanglikser" target="_blank">@maayanglikser</a> was busy authoring a little open source project of ours, &#8220;gisto&#8221;. Gisto is an cross-platform code/note snippets management tool using GitHub&#8217;s gist API to save, retrieve and manage code snippets or any textual data on that matter.

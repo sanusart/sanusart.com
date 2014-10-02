@@ -18,11 +18,14 @@ tags:
   - vsti
   - music
   - effect
-
+  
 demo:
-  - url: http://jsfiddle.net/paLBA/
+  - url: https://www.youtube.com/watch?v=od6kxrmlbKA
     icon: fa-youtube
+    
+download: "pLaFnO_VST.zip"
+image: "plafno-vst_src_1.png"
 
-download: https://github.com/sanusart/Image-Side-Slide/archive/master.zip
 ---
+
 Free small, lite panning VST effect.
