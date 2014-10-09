@@ -6,8 +6,8 @@ var minifyHTML = require('gulp-minify-html');
 var connect = require('gulp-connect');
 
 gulp.task('move-fonts', function () {
-    gulp.src('./assets/font-awesome/fonts/*')
-        .pipe(gulp.dest('./fonts/'));
+    gulp.src('assets/font-awesome/fonts/*')
+        .pipe(gulp.dest('fonts/'));
 });
 
 gulp.task('jekyll-build', function (done) {
@@ -17,49 +17,49 @@ gulp.task('jekyll-build', function (done) {
 
 gulp.task('server', ['jekyll-build'], function () {
     connect.server({
-        root: './_site',
+        root: '_site',
         port: '4000',
         livereload: true
     });
 });
 
 gulp.task('sass', function () {
-    gulp.src('./css/main.scss')
+    gulp.src('css/main.scss')
         .pipe(sass())
-        .pipe(gulp.dest('./css'));
+        .pipe(gulp.dest('css'));
 });
 
 gulp.task('css', ['move-fonts'], function () {
     gulp.src([
-        './assets/normalize.css/normalize.css',
-        './assets/font-awesome/css/font-awesome.min.css',
-        './assets/highlightjs/styles/monokai_sublime.css',
-        './assets/hint.css/hint.min.css',
-        './css/main.css'
+        'assets/normalize.css/normalize.css',
+        'assets/font-awesome/css/font-awesome.min.css',
+        'assets/highlightjs/styles/monokai_sublime.css',
+        'assets/hint.css/hint.min.css',
+        'css/main.css'
     ])
         .pipe(concat('style.css'))
-        .pipe(gulp.dest('./css/'));
+        .pipe(gulp.dest('css/'));
 });
 
 gulp.task('js', function () {
     gulp.src([
-        './assets/modernizer/modernizr.js',
-        './assets/jquery/dist/jquery.min.js',
-        './assets/highlightjs/highlight.pack.js',
-        './assets/instantclick/instantclick.js',
-        './js/main.js'])
+        'assets/modernizer/modernizr.js',
+        'assets/jquery/dist/jquery.min.js',
+        'assets/highlightjs/highlight.pack.js',
+        'assets/instantclick/instantclick.js',
+        'js/main.js'])
 //        .pipe(uglify())
         .pipe(concat('script.js'))
-        .pipe(gulp.dest('./js/'))
+        .pipe(gulp.dest('js/'))
 });
 
 gulp.task('html', ['jekyll-build'], function () {
     var opts = {comments: false, spare: true};
     gulp.src([
-        './_site/**/*.html'
+        '_site/**/*.html'
     ])
         .pipe(minifyHTML(opts))
-        .pipe(gulp.dest('./_site/'))
+        .pipe(gulp.dest('_site/'))
 });
 
 gulp.task('watch', function () {
