@@ -21,6 +21,9 @@ It is time
 ### Pre-build 
 
 Run `$ bundle install`
+
+Run `$ bourbon install --path=css`
+
 Run `$ npm install`
 
 ### Build
