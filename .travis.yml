@@ -1,7 +1,16 @@
 language: ruby
+
 rvm:
-- 2.1
-script: jekyll build # && htmlproof ./_site
+  - 2.1
+
+before_install:
+  - bundle install
+  - bourbon install --path=css
+
+install:
+  - npm install
+
+script: jekyll build
 
 # branch whitelist
 branches:
