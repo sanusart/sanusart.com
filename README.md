@@ -15,8 +15,10 @@ It is time
 - scss 
 - bourbon (for mixins)
 - bower
-- font-awesome
+- font-awesome (font)
 - spin cycle (font)
+- travis-ci
+- codeship
 
 ### Pre-build 
 
