@@ -5,7 +5,7 @@
     "main": "index.html",
     "scripts": {
         "test": "none",
-        "postInstall": "bower install"
+        "install": "bower install"
     },
     "repository": {
         "type": "git",
