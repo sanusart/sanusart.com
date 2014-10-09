@@ -1,10 +1,10 @@
 # Site settings
-title: sanus|art
-email: sanusart@gmail.com
-description: "Description"
-year: 2014
+title: "sanus|art"
+email: "sanusart@gmail.com"
+description: "Sanus Artificium - free software for music creation, music downloads, sound engineering information, a few how to's, PHP, JavaScript and web development stuff in general"
+year: "2014"
 highlighter: pygments
-url: "http://dev.sa.com"
+url: "https://dev.sa.com"
 
 author: '<a target="_blank" href="https://plus.google.com/111862979601357461785" rel="publisher">Sasha Khamkov</a>'
 
@@ -16,7 +16,7 @@ markdown: kramdown
 permalink: pretty
 
 include: [.htaccess]
-exclude: [.gitignore, .bowerrc, jmk, package.json, gulpfile.js, node_modules]
+exclude: [.gitignore, .bowerrc, jmk, package.json, gulpfile.js, node_modules, assets, mkpage.sh, README.md,bower.json]
 
 collections:
   codes:

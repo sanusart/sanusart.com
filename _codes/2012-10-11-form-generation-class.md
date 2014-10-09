@@ -4,8 +4,8 @@ layout: item
 title: Form generation class
 date:   2012-10-11 10:01:53
 seo_title: "Form generation class"
-seo_description: "Form generation class"
-permalink: /projects/code/form-generation-class/
+seo_description: "PHP Form generation class"
+permalink: /projects/code/PHP-form-generation-class/
 
 category:
   - name: Projects

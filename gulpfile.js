@@ -34,6 +34,7 @@ gulp.task('css', ['move-fonts'], function () {
         './assets/normalize.css/normalize.css',
         './assets/font-awesome/css/font-awesome.min.css',
         './assets/highlightjs/styles/monokai_sublime.css',
+        './assets/hint.css/hint.min.css',
         './css/main.css'
     ])
         .pipe(concat('style.css'))
@@ -42,6 +43,7 @@ gulp.task('css', ['move-fonts'], function () {
 
 gulp.task('js', function () {
     gulp.src([
+        './assets/modernizer/modernizr.js',
         './assets/jquery/dist/jquery.min.js',
         './assets/highlightjs/highlight.pack.js',
         './assets/instantclick/instantclick.js',
