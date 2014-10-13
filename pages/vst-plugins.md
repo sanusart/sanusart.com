@@ -14,6 +14,6 @@ permalink: /projects/vst-plugins/
 ---
 
 {% for vst in site.vsts %}
-<a class="post-list-item" href="{{site.baseurl}}{{ vst.permalink }}"><date>{{ vst.date | date_to_long_string}}</date>
+<a class="post-list-item" href="{{site.baseurl}}{{ vst.permalink }}">
 <i class="fa fa-angle-right"></i> <span> {{ vst.title }}</span></a>
 {% endfor %}

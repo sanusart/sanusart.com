@@ -19,8 +19,8 @@ host:    0.0.0.0
 markdown: kramdown
 permalink: pretty
 
-include: [.htaccess, css/style.css,js/script.js]
-exclude: [.gitignore, .bowerrc, jmk, package.json, gulpfile.js, node_modules, assets, mkpage.sh, README.md,bower.json, Gemfile.lock,Gemfile]
+include: [.htaccess]
+exclude: [js/main.js, css/main.scss, css/main.css, css/main.css.map, .gitignore, .bowerrc, package.json, gulpfile.js, node_modules, assets, README.md, bower.json, Gemfile.lock, Gemfile]
 
 collections:
   codes:

@@ -11,3 +11,5 @@ downloads/*
 !downloads/.gitkeep
 .sass-cache
 jekyll-export
+music/*
+!music/.gitkeep
