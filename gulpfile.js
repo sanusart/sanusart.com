@@ -4,6 +4,8 @@ var childProcess = require('child_process');
 var concat = require('gulp-concat');
 var minifyHTML = require('gulp-minify-html');
 var connect = require('gulp-connect');
+var uglify = require('gulp-uglify');
+var minifyCSS = require('gulp-minify-css');
 
 gulp.task('move-fonts', function() {
     gulp.src('assets/font-awesome/fonts/*')
@@ -40,6 +42,7 @@ gulp.task('css', ['move-fonts'], function() {
         'css/main.css'
     ])
         .pipe(concat('style.css'))
+        .pipe(minifyCSS({keepSpecialComments:0}))
         .pipe(gulp.dest('css/'));
 });
 
@@ -51,9 +54,9 @@ gulp.task('js', function() {
         'assets/instantclick/instantclick.js',
         'js/main.js'
     ])
-    //        .pipe(uglify())
     .pipe(concat('script.js'))
-        .pipe(gulp.dest('js/'))
+    .pipe(uglify())
+    .pipe(gulp.dest('js/'))
 });
 
 gulp.task('html', ['jekyll-build'], function() {
