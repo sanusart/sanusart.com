@@ -10,7 +10,7 @@
 
 - id: 3
   text: VST
-  url: /projects/vst/
+  url: /projects/vst-plugins/
   icon: fa-puzzle-piece
 
 - id: 4
