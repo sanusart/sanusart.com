@@ -5,14 +5,14 @@ title: DelKaty VST
 date:   2012-10-02 10:01:53
 seo_title: "DelKaty VST"
 seo_description: "DelKaty VST"
-permalink: /projects/vst/delkaty-vst/
+permalink: /projects/vst-plugins/delkaty-vst/
 
 category:
   - name: Projects
     url: /projects/
 
   - name: VST
-    url: /projects/vst/
+    url: /projects/vst-plugins/
 
 tags:
   - vsti

@@ -5,14 +5,14 @@ title: Filllter VST
 date:   2012-10-02 10:01:53
 seo_title: "Filllter VST"
 seo_description: "Filllter VST"
-permalink: /projects/vst/filllter-vst/
+permalink: /projects/vst-plugins/filllter-vst/
 
 category:
   - name: Projects
     url: /projects/
 
   - name: VST
-    url: /projects/vst/
+    url: /projects/vst-plugins/
 
 tags:
   - vsti

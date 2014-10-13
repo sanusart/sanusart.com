@@ -5,14 +5,14 @@ title: BassLiner VSTi base line
 date:   2012-10-02 10:01:53
 seo_title: "BassLiner VSTi base line"
 seo_description: "BassLiner VSTi base line"
-permalink: /projects/vst/bassliner-vsti-base-line/
+permalink: /projects/vst-plugins/bassliner-vsti-base-line/
 
 category:
   - name: Projects
     url: /projects/
 
   - name: VST
-    url: /projects/vst/
+    url: /projects/vst-plugins/
 
 tags:
   - vsti

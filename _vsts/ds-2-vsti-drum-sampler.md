@@ -5,14 +5,14 @@ title: DS-2 VSTi drum sampler
 date:   2012-10-02 10:01:53
 seo_title: "DS-2 VSTi drum sampler"
 seo_description: "DS-2 VSTi drum sampler"
-permalink: /projects/vst/ds-2-vsti-drum-sampler/
+permalink: /projects/vst-plugins/ds-2-vsti-drum-sampler/
 
 category:
   - name: Projects
     url: /projects/
 
   - name: VST
-    url: /projects/vst/
+    url: /projects/vst-plugins/
 
 tags:
   - vsti

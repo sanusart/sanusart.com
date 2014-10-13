@@ -5,14 +5,14 @@ title: E-fix VSTi
 date:   2012-10-02 10:01:53
 seo_title: "E-fix VSTi"
 seo_description: "E-fix VSTi"
-permalink: /projects/vst/e-fix-vsti/
+permalink: /projects/vst-plugins/e-fix-vsti/
 
 category:
   - name: Projects
     url: /projects/
 
   - name: VST
-    url: /projects/vst/
+    url: /projects/vst-plugins/
 
 tags:
   - vst

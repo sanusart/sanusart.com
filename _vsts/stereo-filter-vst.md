@@ -5,14 +5,14 @@ title: Stereo filter VST
 date:   2012-10-02 10:01:53
 seo_title: "Stereo filter VST"
 seo_description: "Stereo filter VST"
-permalink: /projects/vst/stereo-filter-vst/
+permalink: /projects/vst-plugins/stereo-filter-vst/
 
 category:
   - name: Projects
     url: /projects/
 
   - name: VST
-    url: /projects/vst/
+    url: /projects/vst-plugins/
 
 tags:
   - vsti

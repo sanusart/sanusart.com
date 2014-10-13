@@ -5,14 +5,14 @@ title: SoundFonter VSTi
 date:   2012-10-02 10:01:53
 seo_title: "SoundFonter VSTi"
 seo_description: "SoundFonter VSTi"
-permalink: /projects/vst/soundfonter-vsti/
+permalink: /projects/vst-plugins/soundfonter-vsti/
 
 category:
   - name: Projects
     url: /projects/
 
   - name: VST
-    url: /projects/vst/
+    url: /projects/vst-plugins/
 
 tags:
   - vsti

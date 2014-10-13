@@ -5,14 +5,14 @@ title: Fernando VSTi Subtractive Synthesizer
 date:   2012-10-02 10:01:53
 seo_title: "Fernando VSTi Subtractive Synthesizer"
 seo_description: "Fernando VSTi Subtractive Synthesizer"
-permalink: /projects/vst/fernando-vsti-subtractive-synthesizer/
+permalink: /projects/vst-plugins/fernando-vsti-subtractive-synthesizer/
 
 category:
   - name: Projects
     url: /projects/
 
   - name: VST
-    url: /projects/vst/
+    url: /projects/vst-plugins/
 
 tags:
   - vsti

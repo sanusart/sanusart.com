@@ -5,14 +5,14 @@ title: Irony VSTi synthesizer
 date:   2012-10-02 10:01:53
 seo_title: "Irony VSTi synthesizer"
 seo_description: "Irony VSTi synthesizer"
-permalink: /projects/vst/irony-vsti-synthesizer/
+permalink: /projects/vst-plugins/irony-vsti-synthesizer/
 
 category:
   - name: Projects
     url: /projects/
 
   - name: VST
-    url: /projects/vst/
+    url: /projects/vst-plugins/
 
 tags:
   - vsti

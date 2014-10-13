@@ -5,14 +5,14 @@ title: WaveSamplerXL VSTi sampler
 date:   2012-10-02 10:01:53
 seo_title: "WaveSamplerXL VSTi sampler"
 seo_description: "WaveSamplerXL VSTi sampler"
-permalink: /projects/vst/wavesamplerxl-vsti-sampler/
+permalink: /projects/vst-plugins/wavesamplerxl-vsti-sampler/
 
 category:
   - name: Projects
     url: /projects/
 
   - name: VST
-    url: /projects/vst/
+    url: /projects/vst-plugins/
 
 tags:
   - vsti
