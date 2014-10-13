@@ -19,7 +19,7 @@ Here are two types of trucks:
 
 - Various music composed with no particular purpose in mind (lower on this page)
 
-##Those once are for the competitions:
+##Those are composed for various competitions:
 
 {% for track in site.data.music %}
 

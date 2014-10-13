@@ -20,8 +20,8 @@ tags:
   - class
 
 demo:
-  - url: http://jsfiddle.net/paLBA/
-    icon: fa-youtube
+  - url: http://runnable.com/VDhdI3Iw4Kg7-vfd/php-form-generation-class
+    icon: fa-code
 
 download: "https://github.com/sanusart/PHP-form-generation-class/archive/master.zip"
 github: "https://github.com/sanusart/PHP-form-generation-class"

@@ -12,3 +12,8 @@
   text: VST
   url: /projects/vst/
   icon: fa-puzzle-piece
+
+- id: 4
+  text: Graphic
+  url: /projects/graphics/
+  icon: fa-paint-brush

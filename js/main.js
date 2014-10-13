@@ -7,6 +7,11 @@ $(function () {
         hljs.highlightBlock(block);
     });
 
+    $('body').on('click', '.totop', function(e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $(e.currentTarget.hash).offset().top
+        }, 1000);
+    });
 
 });
-

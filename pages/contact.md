@@ -13,10 +13,10 @@ seo_description: contact page
 permalink: /contact/
 ---
 
-Twitter: <a href="http://www.sanusart.com/wp-content/images/sanusart" target="_blank">@sanusart</a>
+Twitter: <a href="https://www.twitter.com/sanusart" target="_blank">@sanusart</a>
 
-Facebook: <a href="http://www.sanusart.com/wp-content/images/sanusart1" target="_blank">https://www.facebook.com/sanusart</a>
+Facebook: <a href="https://www.facebook.com/sanusart" target="_blank">https://www.facebook.com/sanusart</a>
 
-E-mail: contact [at] sanusart [dot] com
+Google+: {{site.author}}
 
-&#8230; or fill the form:
+E-mail: sasha<i class="fa fa-at"></i>sanusart.com

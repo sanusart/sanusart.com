@@ -5,17 +5,19 @@ var concat = require('gulp-concat');
 var minifyHTML = require('gulp-minify-html');
 var connect = require('gulp-connect');
 
-gulp.task('move-fonts', function () {
+gulp.task('move-fonts', function() {
     gulp.src('assets/font-awesome/fonts/*')
         .pipe(gulp.dest('fonts/'));
 });
 
-gulp.task('jekyll-build', function (done) {
-    return childProcess.spawn('jekyll', ['build'], {stdio: 'inherit'})
+gulp.task('jekyll-build', function(done) {
+    return childProcess.spawn('jekyll', ['build'], {
+            stdio: 'inherit'
+        })
         .on('close', done);
 });
 
-gulp.task('server', ['jekyll-build'], function () {
+gulp.task('server', ['jekyll-build'], function() {
     connect.server({
         root: '_site',
         port: '4000',
@@ -23,13 +25,13 @@ gulp.task('server', ['jekyll-build'], function () {
     });
 });
 
-gulp.task('sass', function () {
+gulp.task('sass', function() {
     gulp.src('css/main.scss')
         .pipe(sass())
         .pipe(gulp.dest('css'));
 });
 
-gulp.task('css', ['move-fonts'], function () {
+gulp.task('css', ['move-fonts'], function() {
     gulp.src([
         'assets/normalize.css/normalize.css',
         'assets/font-awesome/css/font-awesome.min.css',
@@ -41,20 +43,24 @@ gulp.task('css', ['move-fonts'], function () {
         .pipe(gulp.dest('css/'));
 });
 
-gulp.task('js', function () {
+gulp.task('js', function() {
     gulp.src([
         'assets/modernizer/modernizr.js',
         'assets/jquery/dist/jquery.min.js',
         'assets/highlightjs/highlight.pack.js',
         'assets/instantclick/instantclick.js',
-        'js/main.js'])
-//        .pipe(uglify())
-        .pipe(concat('script.js'))
+        'js/main.js'
+    ])
+    //        .pipe(uglify())
+    .pipe(concat('script.js'))
         .pipe(gulp.dest('js/'))
 });
 
-gulp.task('html', ['jekyll-build'], function () {
-    var opts = {comments: false, spare: true};
+gulp.task('html', ['jekyll-build'], function() {
+    var opts = {
+        comments: false,
+        spare: true
+    };
     gulp.src([
         '_site/**/*.html'
     ])
@@ -62,7 +68,7 @@ gulp.task('html', ['jekyll-build'], function () {
         .pipe(gulp.dest('_site/'))
 });
 
-gulp.task('watch', function () {
+gulp.task('watch', function() {
     //gulp.watch('./js/*.js',['minify-js','minify-html']);
     //gulp.watch('./**/*.md',['minify-html']);
     //gulp.watch(['./**/*.html','!./site/**/*.html'],['minify-html']);

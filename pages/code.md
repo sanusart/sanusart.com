@@ -14,6 +14,6 @@ permalink: /projects/code/
 ---
 
 {% for code in site.codes %}
-<a class="post-list-item" href="{{site.baseurl}}{{ code.url }}"><date>{{ code.date | date_to_long_string}}</date>
+<a class="post-list-item" href="{{site.baseurl}}{{ code.url }}">
 <i class="fa fa-angle-right"></i> <span>{{ code.title }}</span></a>
 {% endfor %}

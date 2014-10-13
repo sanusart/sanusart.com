@@ -17,13 +17,13 @@
 
 {% assign class3 = page.layout %}
 
-<body class="page--{{class}}{{class2}} layout-{{class3}} title--{{page.title | replace: ' ':'-' | replace: '&amp;':'-' | replace: '.':'-' | replace: '?':'-' | replace: '!':'-' | replace: ',':'-' | downcase }}">
+<body id="sanusart" class="page--{{class}}{{class2}} layout-{{class3}} title--{{page.title | replace: ' ':'-' | replace: '&amp;':'-' | replace: '.':'-' | replace: '?':'-' | replace: '!':'-' | replace: ',':'-' | downcase }}">
 
 <sanusart role="main">
 
     {% include header.html %}
 
-    <content class="wrap">
+    <content class="wrap main">
     {% if page.url == '/' %}
         {% include home.html %}
     {% else %}

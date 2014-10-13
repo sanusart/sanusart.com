@@ -10,7 +10,7 @@ category:
 seo_title: vst page
 seo_description: vst page
 
-permalink: /projects/vst/
+permalink: /projects/vst-plugins/
 ---
 
 {% for vst in site.vsts %}

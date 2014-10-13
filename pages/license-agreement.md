@@ -47,12 +47,19 @@ studio, Tracktion&#8230;) with Virtual Studio Technology&#8221; (&#8220;VST&#822
 
 ### Other information:
 
-Those files were downloaded from &#8211; www.sanusart.com • Those plug-ins were made with
-Jeff McClintock&#8217;s &#8220;Synthedit&#8221; &#8211; www.synthedit.com • Some of the plug-ins MAY use some free modules made by Chris Kerry -
-www.chriskerry.f9.co.uk • Some of the plug-ins MAY use some free modules made by David Haupt &#8211; www.dehaupt.com • For
-questions, ideas, comments and other stuff contact the author at &#8211; contact [at] sanusart [dot] com • VST technology is a trademark of
-Steinberg Soft- and Hardware GmbH &#8211; www.steinberg.net • WindowsTM is a trademark of MicrosoftTM corporation -
-www.microsoft.com
+Those files were downloaded from &#8211; www.sanusart.com 
+
+• Those plug-ins were made with Jeff McClintock&#8217;s &#8220;Synthedit&#8221; &#8211; www.synthedit.com 
+
+• Some of the plug-ins MAY use some free modules made by Chris Kerry - www.chriskerry.f9.co.uk 
+
+• Some of the plug-ins MAY use some free modules made by David Haupt &#8211; www.dehaupt.com 
+
+• For questions, ideas, comments and other stuff contact the author at &#8211; contact [at] sanusart [dot] com 
+
+• VST technology is a trademark of Steinberg Soft - and Hardware GmbH &#8211; www.steinberg.net 
+
+• Windows is a trademark of MicrosoftTM corporation - www.microsoft.com
 
 Any questions regarding this license (&#8220;EULA&#8221;) or the plug-ins don&#8217;t hesitate to contact at: contact [at] sanusart [dot] com
 

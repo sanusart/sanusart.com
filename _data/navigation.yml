@@ -47,3 +47,8 @@
   text: VST
   url: /projects/vst/
   sub_id_of: 5
+
+- linkid: 12
+  text: Graphics
+  url: /projects/graphics/
+  sub_id_of: 5
