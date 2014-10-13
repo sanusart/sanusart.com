@@ -5,13 +5,13 @@ description: "Sanus Artificium - free software for music creation, music downloa
 year: "2014"
 highlighter: pygments
 
-#url: "https://sanusart.com"
-url: "http://dev.sa.com"
+url: "http://dev.sanusart.com"
+#url: "http://dev.sa.com"
 
 author: '<a target="_blank" href="https://plus.google.com/111862979601357461785" rel="publisher">Sasha Khamkov</a>'
 
-#baseurl: "https://sanusart.com"
-baseurl: "http://dev.sa.com"
+baseurl: "http://dev.sanusart.com"
+#baseurl: "http://dev.sa.com"
 
 port:    4000
 host:    0.0.0.0
