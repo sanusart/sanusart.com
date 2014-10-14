@@ -1,107 +1,107 @@
 - name: Vertigo
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 00 - Vertigo.mp3
+  ogg: 00 - Vertigo.ogg
   soundcloud: 62629645
 
 - name: Momentum
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 01 - Momentum.mp3
+  ogg: 01 - Momentum.ogg
   soundcloud: 62629646
 
 - name: I wish the rain
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 705 - I wish the rain (weather voodoo).mp3
+  ogg: 705 - I wish the rain (weather voodoo).ogg
   soundcloud: 62629647
 
 - name: A walk on Mars
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 01 - Walk On Mars.mp3
+  ogg: 01 - Walk On Mars.ogg
   soundcloud: 62629644
 
 - name:  Now you can rest
   description: "Tribute to Roger Moog RIP"
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 01 - Now you can rest [Robert Moog RIP].mp3
+  ogg: 01 - Now you can rest [Robert Moog RIP].ogg
   soundcloud: 62629643
 
-- name: It&#8217;s all synthetic
+- name: It's all synthetic
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 00 - It's all synthetic.mp3
+  ogg: 00 - It's all synthetic.ogg
   soundcloud: 62629642
 
 - name: Obvious Junetic
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 01 - ObviousJunetic.mp3
+  ogg: 01 - ObviousJunetic.ogg
   soundcloud: 62629641
 
 - name: Corns
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 00 - Corns.mp3
+  ogg: 00 - Corns.ogg
   soundcloud: 62629640
 
 - name: Up and down
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 01 - Up & Down.mp3
+  ogg: 01 - Up & Down.ogg
   soundcloud: 62629639
 
 - name: Victim of time
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 01 - Victim of time.mp3
+  ogg: 01 - Victim of time.ogg
   soundcloud: 62629638
 
 - name: February
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 502 - February.mp3
+  ogg: 502 - February.ogg
   soundcloud: 62629637
 
 - name: Corners
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 00 - Corners.mp3
+  ogg: 00 - Corners.ogg
   soundcloud: 62629637
 
 - name: Out+
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 00 - Out+.mp3
+  ogg: 00 - Out+.ogg
   soundcloud: 62632905
 
 - name: R-tech
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 00 - R-tech.mp3
+  ogg: 00 - R-tech.ogg
   soundcloud: 62632907
 
 - name: Phi house
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 00 - Phi house.mp3
+  ogg: 00 - Phi house.ogg
   soundcloud: 62632906
 
 - name: Slower music
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 00 - Slower music.mp3
+  ogg: 00 - Slower music.ogg
   soundcloud: 62632909
 
 - name: V-rock
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 00 - V rock.mp3
+  ogg: 00 - V rock.ogg
   soundcloud: 62632910
 
 - name: Breath In
   description: ""
-  mp3: file.mp3
-  ogg: file.ogg
+  mp3: 00 - Breath in.mp3
+  ogg: 00 - Breath in.ogg
   soundcloud: 62632903
