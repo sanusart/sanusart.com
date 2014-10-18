@@ -13,3 +13,4 @@ downloads/*
 jekyll-export
 music/*
 !music/.gitkeep
+Gemfile.lock

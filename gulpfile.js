@@ -19,12 +19,11 @@ gulp.task('jekyll-build', function(done) {
         .on('close', done);
 });
 
-gulp.task('server', ['jekyll-build'], function() {
-    connect.server({
-        root: '_site',
-        port: '4000',
-        livereload: true
-    });
+gulp.task('dev', ['sass', 'js', 'css', 'html'], function (done) {
+    return childProcess.spawn('jekyll', ['serve','--baseurl','-w'], {
+        stdio: 'inherit'
+    })
+        .on('close', done);
 });
 
 gulp.task('sass', function() {

@@ -26,8 +26,12 @@ Run `$ bundle install`
 
 Run `$ bourbon install --path=css`
 
-Run `$ npm install`
+Run `$ npm install` (this will execute `bower install` as _posInstall_ script)
 
 ### Build
 
 Run `$ gulp`
+
+### Dev
+
+Run `$ gulp dev`

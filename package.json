@@ -4,8 +4,7 @@
   "description": "sanusart.com rewrite",
   "main": "index.html",
   "scripts": {
-    "test": "none",
-    "install": "bower install"
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",

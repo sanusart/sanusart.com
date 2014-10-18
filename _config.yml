@@ -3,18 +3,11 @@ title: "sanus|art"
 email: "sanusart@gmail.com"
 description: "Sanus Artificium - free software for music creation, music downloads, sound engineering information, a few how to's, PHP, JavaScript and web development stuff in general"
 year: "2014"
+author: '<a target="_blank" href="https://plus.google.com/111862979601357461785" rel="publisher">Sasha Khamkov</a>'
 highlighter: pygments
 
 url: "http://dev.sanusart.com"
-#url: "http://dev.sa.com"
-
-author: '<a target="_blank" href="https://plus.google.com/111862979601357461785" rel="publisher">Sasha Khamkov</a>'
-
 baseurl: "http://dev.sanusart.com"
-#baseurl: "http://dev.sa.com"
-
-port:    4000
-host:    0.0.0.0
 
 markdown: kramdown
 permalink: pretty
