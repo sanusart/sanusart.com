@@ -14,6 +14,11 @@ $(function () {
         }, 1000);
     });
 
+    // mobile nav
+    $('nav ul').addClass('mobile');
+    $('nav ul.mobile').prepend('<li><a class="nav-link burger" href="#"><i class="fa fa-reorder"></i></a></li>');
+    $('nav ul.mobile li a:not(.burger)').hide();
+
 });
 
 var _gas = _gas || [];

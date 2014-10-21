@@ -403,4 +403,30 @@ code {
 /* ----------------------------------------------------------*/
 @media screen and (max-width: 750px) { }
 
-@media screen and (max-width: 600px) { }
+@media screen and (max-width: 600px) {
+  body, html {
+    height: auto;
+    overflow: hidden;
+    width: 100%; }
+  utility {
+    margin: 1px 0 0 0px;
+    width: 90%; }
+  aside {
+    display: none; }
+  nav ul li > a {
+    line-height: 100px;
+    color: #000;
+    margin: 0px 15px 0px 35px;
+    font-size: 2rem; }
+  content {
+    margin: 1px 0 -70px 20px;
+    width: 90%; }
+    content h1 {
+      line-height: 35px; }
+  .page--home content a, .page--projects content a {
+    line-height: 250px;
+    width: 300px;
+    height: 300px;
+    margin: 0 80px 80px 0; }
+  .page--home content a span {
+    font-size: 2rem; } }

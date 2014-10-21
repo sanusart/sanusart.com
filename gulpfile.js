@@ -3,7 +3,6 @@ var sass = require('gulp-sass');
 var childProcess = require('child_process');
 var concat = require('gulp-concat');
 var minifyHTML = require('gulp-minify-html');
-var connect = require('gulp-connect');
 var uglify = require('gulp-uglify');
 var minifyCSS = require('gulp-minify-css');
 
@@ -70,11 +69,11 @@ gulp.task('html', ['jekyll-build'], function() {
         .pipe(gulp.dest('_site/'))
 });
 
-gulp.task('watch', function() {
-    //gulp.watch('./js/*.js',['minify-js','minify-html']);
+gulp.task('watch',['dev'], function() {
+    //gulp.watch('js/main.js',['dev']);
     //gulp.watch('./**/*.md',['minify-html']);
     //gulp.watch(['./**/*.html','!./site/**/*.html'],['minify-html']);
-    //gulp.watch('./css/**',['minify-html']);
+    //gulp.watch('css/main.scss',['dev']);
 });
 
 /**

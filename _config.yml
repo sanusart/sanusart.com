@@ -22,3 +22,6 @@ collections:
     output: true
   graphics:
     output: true
+
+gems:
+  - jekyll-sitemap
