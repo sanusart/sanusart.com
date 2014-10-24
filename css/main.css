@@ -468,4 +468,6 @@ code {
   .sa-bg {
     font: 430px spin_cycle;
     top: -50px;
-    right: -50px; } }
+    right: -50px; }
+  content p.meta {
+    text-align: left; } }
