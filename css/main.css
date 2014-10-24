@@ -413,10 +413,10 @@ code {
     width: 90%; }
   aside {
     display: none; }
-  nav ul li > a {
+  nav a.burger {
     line-height: 100px;
     color: #000;
-    margin: 0px 15px 0px 35px;
+    margin: 0 35px;
     font-size: 2rem; }
   content {
     margin: 1px 0 -70px 20px;
@@ -427,6 +427,45 @@ code {
     line-height: 250px;
     width: 300px;
     height: 300px;
-    margin: 0 80px 80px 0; }
+    margin: 0 auto 40px;
+    display: block; }
   .page--home content a span {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .page--home h1 {
+    text-align: center; }
+  header nav ul {
+    display: none; }
+  #slide {
+    position: absolute;
+    left: -200px;
+    top: 0;
+    width: 180px;
+    height: 100%;
+    padding: 0px 0px 0px 20px;
+    box-shadow: -9px 0px 30px #000 inset;
+    background: rgba(255, 255, 255, 0.2); }
+    #slide .close {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      border: 1px solid #fff;
+      padding: 5px 6px;
+      border-radius: 3px; }
+      #slide .close:active {
+        background: #fff;
+        color: #392443; }
+    #slide ul li {
+      background: 0 0;
+      list-style: none;
+      padding: 5px 0px 0 10px;
+      top: 39px;
+      margin: 5px;
+      border-left: 2px solid #F5DA81;
+      border-bottom: 0px dotted #f5da81;
+      position: relative; }
+      #slide ul li a {
+        color: #F5DA81; }
+  .sa-bg {
+    font: 430px spin_cycle;
+    top: -50px;
+    right: -50px; } }

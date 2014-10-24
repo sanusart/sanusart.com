@@ -70,10 +70,10 @@ gulp.task('html', ['jekyll-build'], function() {
 });
 
 gulp.task('watch',['dev'], function() {
-    //gulp.watch('js/main.js',['dev']);
+    gulp.watch('js/main.js',['dev']);
     //gulp.watch('./**/*.md',['minify-html']);
     //gulp.watch(['./**/*.html','!./site/**/*.html'],['minify-html']);
-    //gulp.watch('css/main.scss',['dev']);
+    gulp.watch('css/main.scss',['dev']);
 });
 
 /**
