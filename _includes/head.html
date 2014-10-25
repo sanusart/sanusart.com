@@ -20,13 +20,13 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{% if page.seo_title %}{{ page.seo_title }}{% else %}{{ page.title }}{% endif %}" />
     <meta property="og:description" content="{% if page.seo_description %}{{ page.seo_description }}{% else %}{{ site.description }}{% endif %}" />
-    <meta property="og:url" content="{{ site.baseurl }}" />
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}" />
     <meta property="og:site_name" content="Sanus artificium" />
     <meta property="og:image" content="{{ site.baseurl }}/images/logo.png" />
     <!-- / Open graph data -->
 
 </head>
 
-<!--[if lt IE 7]>
+<!--[if lt IE 8]>
 <p style="text-align: center;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
