@@ -17,11 +17,10 @@ $(function () {
     if (isMobile() === true) {
 
         var navList = $('header nav ul');
-
         $('#slide nav').replaceWith( navList );
 
         // mobile nav
-        $('nav').html('<a class="nav-link burger" href="#"><i class="fa fa-reorder"></i></a>');
+        $('header nav').html('<a class="nav-link burger" href="#"><i class="fa fa-reorder"></i></a>');
 
         $('header').on('click','.burger',function() {
             $('#slide').animate({

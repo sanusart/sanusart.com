@@ -424,9 +424,9 @@ code {
     content h1 {
       line-height: 35px; }
   .page--home content a, .page--projects content a {
-    line-height: 250px;
-    width: 300px;
-    height: 300px;
+    line-height: 200px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto 40px;
     display: block; }
   .page--home content a span {
@@ -436,14 +436,15 @@ code {
   header nav ul {
     display: none; }
   #slide {
-    position: absolute;
+    position: fixed;
+    overflow: auto;
     left: -200px;
     top: 0;
     width: 180px;
     height: 100%;
     padding: 0px 0px 0px 20px;
     box-shadow: -9px 0px 30px #000 inset;
-    background: rgba(255, 255, 255, 0.2); }
+    background: rgba(57, 36, 67, 0.2); }
     #slide .close {
       position: absolute;
       top: 15px;
@@ -457,12 +458,14 @@ code {
     #slide ul li {
       background: 0 0;
       list-style: none;
-      padding: 5px 0px 0 10px;
+      padding: 10px 0px 0px 0px;
       top: 39px;
+      font-size: 121%;
       margin: 5px;
-      border-left: 2px solid #F5DA81;
-      border-bottom: 0px dotted #f5da81;
-      position: relative; }
+      /* border-left: 0px solid #F5DA81; */
+      border-bottom: 1px solid #f5da81;
+      position: relative;
+      width: 157px; }
       #slide ul li a {
         color: #F5DA81; }
   .sa-bg {
@@ -470,4 +473,7 @@ code {
     top: -50px;
     right: -50px; }
   content p.meta {
-    text-align: left; } }
+    text-align: left; }
+  footer {
+    margin: 1px 0 0 0px;
+    width: 100%; } }

@@ -501,9 +501,9 @@ code {
 
   .page--home content a,
   .page--projects content a {
-    line-height: 250px;
-    width: 300px;
-    height: 300px;
+    line-height: 200px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto 40px;
     display: block;
   }
@@ -515,54 +515,62 @@ code {
     text-align: center;
   }
 
-header nav ul {
-  display:none;
-}
+  header nav ul {
+    display: none;
+  }
 
-#slide {
-  position: absolute;
-  left: -200px;
-  top: 0;
-  width: 180px;
-  height: 100%;
-  padding: 0px 0px 0px 20px;
-  box-shadow: -9px 0px 30px #000 inset;
-  background: rgba(255,255,255,.2);
-  & .close {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    border: 1px solid #fff;
-    padding: 5px 6px;
-    border-radius: 3px;
-    &:active {
+  #slide {
+    position: fixed;
+    overflow: auto;
+    left: -200px;
+    top: 0;
+    width: 180px;
+    height: 100%;
+    padding: 0px 0px 0px 20px;
+    box-shadow: -9px 0px 30px #000 inset;
+    background: rgba(57, 36, 67, .2);
+    & .close {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      border: 1px solid #fff;
+      padding: 5px 6px;
+      border-radius: 3px;
+      &:active {
         background: #fff;
         color: $color-purple;
+      }
+    }
+    & ul li {
+      background: 0 0;
+      list-style: none;
+      padding: 10px 0px 0px 0px;
+      top: 39px;
+      font-size: 121%;
+      margin: 5px;
+      /* border-left: 0px solid #F5DA81; */
+      border-bottom: 1px solid #f5da81;
+      position: relative;
+      width: 157px;
+      & a {
+        color: $color-yellow;
+      }
     }
   }
-  & ul li {
-    background: 0 0;
-    list-style: none;
-    padding: 5px 0px 0 10px;
-    top: 39px;
-    margin: 5px;
-    border-left: 2px solid #F5DA81;
-    border-bottom: 0px dotted #f5da81;
-    position: relative;
-    & a {
-      color:$color-yellow;
-    }
-  }
-}
 
-.sa-bg {
-  font: 430px spin_cycle;
-  top: -50px;
-  right: -50px;
-}
+  .sa-bg {
+    font: 430px spin_cycle;
+    top: -50px;
+    right: -50px;
+  }
 
   content p.meta {
     text-align: left;
+  }
+
+  footer {
+    margin: 1px 0 0 0px;
+    width: 100%;
   }
 
 }

@@ -18,9 +18,8 @@ Sanus Artificium is the place where you can find free software for music creatio
 
 ![sasha](/images/sasha.jpg)
 
-Although there are a lot of &#8220;we&#8221; and &#8220;us&#8221; on this website as you might notices (or not), Sanus artificium is an one person project.
 
-My name is Sasha Khamkov (sometimes Alex, Alexander or whatever this [name][1] is aliasing to &#8211; I don&#8217;t mind really). I was born November 23th,1980 in former USSR republic of Belarus and at age 11 successfully immigrated to Israel with my family. I am older between two brothers.
+My name is Sasha, I was born November 23th,1980 in former USSR republic of Belarus and at age 11 successfully immigrated to Israel with my family. I am older between two brothers.
 
 At August 28th, 2008 I&#8217;ve married my high-school sweetheart Katy and we both live happily in Jerusalem, Israel. At June of 2011 we had addition to our little family &#8211; our wonderful daughter Emily was born.
 
@@ -28,14 +27,11 @@ Sound engineer by profession but my other big passion is web and currently my ma
 
 # What is Sanus artificium anyway &#8230;
 
-So what is the name mean? &#8211; NOTHING !!!
+So what is the name mean?
 
-SANUS &#8211; (*Latin*) sound, ARTIFICIUM &#8211; (*Latin*) craft work.
+> SANUS (*Latin*) sound, ARTIFICIUM (*Latin*) craft work
 
-The idea for this name came from nowhere and it indicates nothing as it should because sanus artificium is a bunch of projects brought together and presented in this web site. Most of them music or sound related &#8211; thus the &#8220;sanus&#8221; in the name.
-
-<div>
-</div>
+The idea for this name came from nowhere and it indicates nothing as it probably should because sanus artificium is a bunch of projects brought together and presented in this web site. Most of them music or sound related &#8211; thus the &#8220;sanus&#8221; in the name.
 
 Many of project files are freely available for download and use from their respective areas. As music compositions can be found at [Music][2] page, virtual synthesizer plug-ins can be found at [VST instruments][3] page, virtual effect plug-ins can be found at [VST effects][3] page, PHP and other scripts at [PHP scripts][4] page, graphic elements at [Graphics][5] page ans so on.
 
@@ -45,17 +41,12 @@ Downloads in this site mostlly come compressed in .zip containers for space savi
 
 Licenses and read-me files mostlly come in .pdf format so you will need [adobe reader][10].
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
+Have fun,
 
 **Sasha Khamkov**
-09/06/2012
-<big>Have fun !</big>
+
+
+
 
  [1]: http://www.sanusart.com/wp-content/images/Alexander#Variants_and_diminutives
  [2]: /music/ "Music"
