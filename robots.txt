@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /*?
+Disallow: /stats
+Disallow: /fonts
+Disallow: /404
+
+User-agent: CCBot
+Crawl-delay: 10
+
+Sitemap: https://sanusart.com/sitemap.xml
