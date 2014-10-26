@@ -22,7 +22,9 @@ $(function () {
         // mobile nav
         $('header nav').html('<a class="nav-link burger" href="#"><i class="fa fa-reorder"></i></a>');
 
-        $('header').on('click','.burger',function() {
+        $('header').on('click','.burger',function(ev) {
+            ev.preventDefault();
+            ev.stopImmediatePropagation();
             $('#slide').animate({
                 left: '0px'
             }, 'fast');

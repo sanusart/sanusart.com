@@ -28,8 +28,8 @@ Here are two types of trucks:
 {{track.description}}
 
 <audio controls>
-  <source src="music/{{track.mp3}}" type="audio/mpeg">
-  <source src="music/{{track.ogg}}" type="audio/ogg">
+  <source src="{{ site.baseurl }}/music/{{track.mp3}}" type="audio/mpeg">
+  <source src="{{ site.baseurl }}/music/{{track.ogg}}" type="audio/ogg">
   <iframe width="600" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/{{track.soundcloud}}&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=true&visual=true"></iframe>
 </audio>
 
