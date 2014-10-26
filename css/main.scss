@@ -523,6 +523,10 @@ code {
     display: none;
   }
 
+  #instantclick {
+    display: block;
+  }
+
   #slide {
     position: fixed;
     overflow: auto;
@@ -576,6 +580,23 @@ code {
   footer {
     margin: 1px 0 0 0px;
     width: 100%;
+  }
+
+  .bounce {
+    display: block;
+    position: relative;
+    @include animation(down 2s infinite);
+  }
+
+  @include keyframes(down) {
+    from {
+      top:-20px;
+      opacity: 1;
+    }
+    to {
+      top:20px;
+      opacity: 0;
+    }
   }
 
 }

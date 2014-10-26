@@ -407,6 +407,33 @@ code {
 @media screen and (max-width: 750px) { }
 
 @media screen and (max-width: 600px) {
+  @-webkit-keyframes down {
+    from {
+      top: -20px;
+      opacity: 1; }
+
+    to {
+      top: 20px;
+      opacity: 0; } }
+
+  @-moz-keyframes down {
+    from {
+      top: -20px;
+      opacity: 1; }
+
+    to {
+      top: 20px;
+      opacity: 0; } }
+
+  @keyframes down {
+    from {
+      top: -20px;
+      opacity: 1; }
+
+    to {
+      top: 20px;
+      opacity: 0; } }
+
   body, html {
     height: auto;
     overflow: hidden;
@@ -438,6 +465,8 @@ code {
     text-align: center; }
   header nav ul {
     display: none; }
+  #instantclick {
+    display: block; }
   #slide {
     position: fixed;
     overflow: auto;
@@ -480,4 +509,10 @@ code {
     text-align: left; }
   footer {
     margin: 1px 0 0 0px;
-    width: 100%; } }
+    width: 100%; }
+  .bounce {
+    display: block;
+    position: relative;
+    -webkit-animation: down 2s infinite;
+    -moz-animation: down 2s infinite;
+    animation: down 2s infinite; } }

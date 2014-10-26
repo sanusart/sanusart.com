@@ -39,7 +39,7 @@ $(function () {
             }, 'fast');
         });
 
-        $('.page--home h1').html('<i class="fa fa-chevron-down"></i>');
+        $('.page--home h1').html('<i class="fa bounce fa-chevron-down"></i>');
 
     } else {
         $('nav > ul').show();
