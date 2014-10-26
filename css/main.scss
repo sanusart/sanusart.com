@@ -526,6 +526,7 @@ code {
   #slide {
     position: fixed;
     overflow: auto;
+    display:block;
     left: -200px;
     top: 0;
     width: 180px;
