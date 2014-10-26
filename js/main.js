@@ -1,8 +1,5 @@
 $(function () {
 
-    // Instant click
-    InstantClick.init('mousedown');
-
     $('code').each(function (i, block) {
         hljs.highlightBlock(block);
     });
@@ -15,6 +12,9 @@ $(function () {
     });
 
     if (isMobile() === true) {
+
+        // Instant click
+        InstantClick.init('touchstart');
 
         var navList = $('header nav ul');
         $('#slide nav').replaceWith( navList );
@@ -42,6 +42,10 @@ $(function () {
         $('.page--home h1').html('<i class="fa bounce fa-chevron-down"></i>');
 
     } else {
+
+        // Instant click
+        InstantClick.init('mousedown');
+
         $('nav > ul').show();
     }
 

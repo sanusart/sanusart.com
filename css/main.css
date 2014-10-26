@@ -458,7 +458,8 @@ code {
     width: 250px;
     height: 250px;
     margin: 0 auto 40px;
-    display: block; }
+    display: block;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
   .page--home content a span {
     font-size: 2rem; }
   .page--home h1 {
