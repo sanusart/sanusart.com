@@ -6,8 +6,8 @@ year: "2014"
 author: '<a target="_blank" href="https://plus.google.com/111862979601357461785" rel="publisher">Sasha Khamkov</a>'
 highlighter: pygments
 
-url: "https://sanusart.com"
-baseurl: "https://sanusart.com"
+url: "https://www.sanusart.com"
+baseurl: "https://www.sanusart.com"
 
 markdown: kramdown
 permalink: pretty
