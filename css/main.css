@@ -434,9 +434,9 @@ code {
       top: 20px;
       opacity: 0; } }
 
-  body, html {
+  html, body {
     height: auto;
-    overflow: hidden;
+    overflow: auto;
     width: 100%; }
   utility {
     margin: 1px 0 0 0px;

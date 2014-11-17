@@ -473,9 +473,9 @@ code {
 }
 
 @media screen and (max-width: 600px) {
-  body, html {
+  html,body {
     height: auto;
-    overflow: hidden;
+    overflow: auto;
     width: 100%;
   }
 
