@@ -480,8 +480,8 @@ code {
   }
 
   utility {
-    margin: 1px 0 0 0px;
-    width: 90%;
+    margin: 1px 0 0;
+    width: calc(100% - 40px);
   }
 
   aside {
