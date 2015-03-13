@@ -15,6 +15,6 @@ permalink: /blog/
 ---
 
 {% for post in site.posts %}
-<a class="post-list-item" href="{{site.baseurl}}{{ post.url }}"><date>{{ post.date | date_to_long_string}}</date>
+<a class="post-list-item" href="{{site.baseurl}}{{ post.url }}">
 <i class="fa fa-angle-right"></i> <span>{{ post.title }}</span></a>
 {% endfor %}
