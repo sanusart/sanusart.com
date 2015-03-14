@@ -46,11 +46,12 @@ $(function () {
     } else {
 
         // Instant click
-        InstantClick.init('mousedown');
+        //InstantClick.init('mousedown');
 
         $('nav > ul').show();
     }
 
+    $('.hljs').wrap('<span class="code-block"></span>');
 
 });
 
