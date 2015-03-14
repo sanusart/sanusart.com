@@ -21,7 +21,9 @@ Sanus Artificium is the place where you can find free software for music creatio
 
 My name is Sasha, I was born November 23th,1980 in former USSR republic of Belarus and at age 11 successfully immigrated to Israel with my family. I am older between two brothers.
 
-At August 28th, 2008 I&#8217;ve married my high-school sweetheart Katy and we both live happily in Jerusalem, Israel. At June of 2011 we had addition to our little family &#8211; our wonderful daughter Emily was born.
+I am web developer, spare time musician ... My set of tools include CSS, html, PHP, angularJs and sometimes node and bash, guitars and computers are obvious.
+
+At August 28th, 2008 I've married my high-school sweetheart Katy and we both live happily in Jerusalem, Israel. At June of 2011 we had addition to our little family &#8211; our wonderful daughter Emily was born.
 
 Sound engineer by profession but my other big passion is web and currently my main day job is web applications designer and developer.
 

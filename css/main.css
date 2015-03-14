@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
 @import url(//fonts.googleapis.com/css?family=Exo:300,400,700,900);
 /* Base */
 /* Mixins */
@@ -23,7 +24,7 @@ html, body {
   height: 100%; }
 
 body {
-  font-family: 'Exo', 'Trebuchet MS', Helvetica, Arial;
+  font-family: 'Open Sans', 'Exo', 'Trebuchet MS', Helvetica, Arial;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
@@ -177,7 +178,7 @@ content {
     background: #F5DA81;
     color: #392443;
     padding: 5px;
-    font-family: 'Exo', 'Trebuchet MS', Helvetica, Arial;
+    font-family: 'Exo', 'Open sans', 'Trebuchet MS', Helvetica, Arial;
     border: 1px solid #392443; }
     content .button:hover {
       background: transparent;
@@ -188,7 +189,7 @@ content {
     display: block;
     height: 70px; }
   content h1, content h2, content h3 {
-    font-family: 'Exo', 'Trebuchet MS', Helvetica, Arial;
+    font-family: 'Open Sans', 'Exo', 'Trebuchet MS', Helvetica, Arial;
     color: #F5DA81;
     text-transform: capitalize;
     padding: 20px 0px; }
@@ -215,7 +216,7 @@ content {
       line-height: 83px; }
   content p, content ul {
     padding: 0px 0px 16px 0px;
-    font-family: "trebuchet ms", Helvetica, Arial, Helvetica, sans-serif; }
+    font-family: 'Open Sans', "trebuchet ms", Helvetica, Arial, Helvetica, sans-serif; }
   content img {
     float: left;
     margin: 0px 30px 20px 0;
@@ -456,7 +457,8 @@ code {
     font-size: 2rem; }
   content {
     margin: 1px 0 -70px 20px;
-    width: 90%; }
+    width: 90%;
+    font-family: 'Open Sans', 'trebuchet ms', Helvetica, Arial, Helvetica, sans-serif; }
     content h1 {
       line-height: 35px; }
   .page--home content a, .page--projects content a {

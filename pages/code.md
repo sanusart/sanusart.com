@@ -13,7 +13,8 @@ seo_description: code page
 permalink: /projects/code/
 ---
 
-{% for code in site.codes %}
+{% assign sorted_codes = site.codes | sort:'date' %}
+{% for code in sorted_codes reversed %}
 <a class="post-list-item" href="{{site.baseurl}}{{ code.url }}">
 <i class="fa fa-angle-right"></i> <span>{{ code.title }}</span></a>
 {% endfor %}

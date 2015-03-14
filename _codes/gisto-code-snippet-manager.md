@@ -2,7 +2,7 @@
 layout: item
 
 title: Cross-platform Desktop GitHub Gist code snippet manager
-date:   2014-12-21 10:01:53
+date:   2014-12-22 10:01:53
 seo_title: "Cross-platform Desktop GitHub Gist code snippet manager"
 seo_description: "Gisto is a cross-platform gist snippets management desktop application, github gists manager."
 permalink: /projects/code/gisto-code-snippet-manager/
