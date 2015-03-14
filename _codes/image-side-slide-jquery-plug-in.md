@@ -2,7 +2,7 @@
 layout: item
 
 title: Image Side Slide jQuery plug-in
-date:   2012-10-11 10:01:53
+date:   2013-10-11 10:01:53
 seo_title: "Image side slide jquery plug in"
 seo_description: "Image side slide jquery plug in"
 permalink: /projects/code/image-side-slide-jquery-plug-in/
