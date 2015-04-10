@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<div class="post">
+
+    <header class="post-header">
+        <h1>{{ page.title }}</h1>
+
+        <p class="meta">Published by <b>{{ site.author }}</b></p>
+    </header>
+
+    <article class="post-content">
+        {% if page.image %}<a href="{{site.baseurl}}/images/{{ page.image }}">
+        <img width="300" src="{{site.baseurl}}/images/{{ page.image }}" alt="{{ page.seo_title }}"></a>
+        {% endif %}
+
+        {{ content }}
+
+        <div class="buttons">
+            {% if page.download %}
+            {% if page.download contains 'http://' or page.download contains 'https://' %}
+            <a href="{{page.download}}" class="button"><i class="fa fa-download"></i> Download</a>
+            {% else%}
+            <a href="{{site.baseurl}}/downloads/{{page.download}}" class="button"><i class="fa fa-download"></i>
+                Download</a>
+            {% endif %}
+            {% endif %}
+
+            {% if page.demo %}
+            {% for d in page.demo %}
+            <a href="{{d.url}}" target="_blank" class="button"><i class="fa {% if d.icon == 'default' %}fa-eye{% else%}{{d.icon}}{% endif%}"></i> Demo</a>
+            {% endfor %}
+            {% endif %}
+
+            {% if page.github %}
+            <a href="{{page.github}}" target="_blank" class="button"><i class="fa fa-github"></i> Fork it</a>
+            {% endif %}
+
+            {% if page.website %}
+            <a href="{{page.website}}" target="_blank" class="button"><i class="fa fa-globe"></i> Website</a>
+            {% endif %}
+
+        </div>
+        <!-- disqus HERE -->
+
+    </article>
+
+</div>

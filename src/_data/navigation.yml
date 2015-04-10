@@ -1,0 +1,54 @@
+- linkid: 1
+  text: Home
+  url: /
+  sub_id_of: 0
+
+- linkid: 2
+  text: About
+  url: /about/
+  sub_id_of: 0
+
+- linkid: 3
+  text: Projects
+  url: /projects/
+  sub_id_of: 0
+
+- linkid: 5
+  text: Blog
+  url: /blog/
+  sub_id_of: 0
+
+- linkid: 6
+  text: Contact
+  url: /contact/
+  sub_id_of: 0
+
+- linkid: 7
+  text: Cv
+  url: /about/cv/
+  sub_id_of: 2
+
+- linkid: 8
+  text: Portfolio
+  url: /about/portfolio/
+  sub_id_of: 2
+
+- linkid: 9
+  text: Code
+  url: /projects/code/
+  sub_id_of: 3
+
+- linkid: 10
+  text: Music
+  url: /projects/music/
+  sub_id_of: 3
+
+- linkid: 11
+  text: VST
+  url: /projects/vst-plugins/
+  sub_id_of: 3
+
+- linkid: 12
+  text: Graphics
+  url: /projects/graphics/
+  sub_id_of: 3

@@ -8,11 +8,15 @@ highlighter: pygments
 url: "https://www.sanusart.com"
 baseurl: "https://www.sanusart.com"
 
+# Used so Jekyll outputs the site correctly so Gulp can do what it wants
+source: src
+destination: _site
+
 markdown: kramdown
 permalink: pretty
 
-include: [.htaccess]
-exclude: [js/main.js, css/main.scss, css/main.css, css/main.css.map, .gitignore, .bowerrc, package.json, gulpfile.js, node_modules, assets, README.md, bower.json, Gemfile.lock, Gemfile]
+include: ['_pages','_codes','graphics','vsts','.htaccess']
+exclude: [js/style.js, css/style.scss, css/style.css, css/style.css.map, .gitignore, .bowerrc, package.json, gulpfile.js, node_modules, assets, README.md, bower.json, Gemfile.lock, Gemfile]
 
 collections:
   codes:
