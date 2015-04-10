@@ -110,9 +110,14 @@ gulp.task('watch', function () {
     gulp.watch('src/css/*.scss', ['css']);
     gulp.watch('src/js/style.js', ['js']);
     gulp.watch('src/index.html', ['jekyll-just-reload']);
-    gulp.watch(['src/_pages/*','src/_vsts/*','src/_graphics/*','src/_codes/*'], ['jekyll-just-reload']);
+    gulp.watch([
+        'src/_posts/*',
+        'src/_pages/*',
+        'src/_vsts/*',
+        'src/_graphics/*',
+        'src/_codes/*'
+    ], ['jekyll-just-reload']);
     gulp.watch('src/_includes/*', ['jekyll-just-reload']);
-    gulp.watch('src/_posts/*', ['jekyll-just-reload']);
 });
 
 gulp.task('default', ['browser-sync', 'watch']);
