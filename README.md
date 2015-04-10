@@ -23,14 +23,16 @@ It is time
 
 Run `$ bundle install`
 
-Run `$ bourbon install --path=css`
+Run `$ bourbon install --path=src/css`
 
-Run `$ npm install` (this will execute `bower install` as _posInstall_ script)
+Run `$ npm install` (this will execute `bower install` as _postInstall_ script)
 
 ### Build
 
 Run `$ gulp`
 
-### Dev
+### Other opptions
 
-Run `$ gulp dev`
+Run `$ gulp release --min` - runs gulp, minify and concat `css` and `js` files
+
+Run `$ gulp release --min --bs` - runs gulp, minify and concatenates `css` and `js` files, executes browser-sync for preview

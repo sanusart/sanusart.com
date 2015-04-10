@@ -5,7 +5,7 @@ node_modules
 src/fonts/*
 !src/fonts/spincycle*
 src/downloads/*
-src/css/styles.css
+src/css/*.css
 src/js/scripts.js
 !src/downloads/.gitkeep
 .sass-cache
@@ -15,3 +15,4 @@ src/music/*
 Gemfile.lock
 src/downloads/*
 !src/downloads/.gitkeep
+src/css/bourbon
