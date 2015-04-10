@@ -16,3 +16,5 @@ jekyll-export
 src/music/*
 !src/music/.gitkeep
 Gemfile.lock
+src/downloads/*
+!src/downloads/.gitkeep
