@@ -118,7 +118,7 @@ gulp.task('watch', function () {
 gulp.task('default', ['browser-sync', 'watch']);
 
 /**
- * Use with `gulp release --min` - will enable all minifications
+ * Use with `gulp release --min` - will enable all minifications (`--bs` will start browser-sync after)
  */
 gulp.task('release',['jekyll-build'], function() {
     gulp.start('html');
