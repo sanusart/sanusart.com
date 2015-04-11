@@ -17,7 +17,6 @@ It is time
 - [bower](http://bower.io/)
 - [font-awesome (font)](http://fortawesome.github.io/Font-Awesome/)
 - [spin cycle (font)](http://www.bvfonts.com/fonts/details.php?id=43)
-- [codeship](https://www.codeship.io)
 
 ### Pre-build 
 
@@ -36,3 +35,7 @@ Run `$ gulp`
 Run `$ gulp release --min` - runs gulp, minify and concat `css` and `js` files
 
 Run `$ gulp release --min --bs` - runs gulp, minify and concatenates `css` and `js` files, executes browser-sync for preview
+
+### Deployment
+
+[codeship](https://www.codeship.io) executes `./codeship.sh` in the repo root upon commits to master branch.
