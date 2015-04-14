@@ -26,4 +26,4 @@ image: "e-fix-vsti_src_1.png"
 
 E-Fix VSTi ia free SFX generator plug-in. It can produce wide range of pads, chimes, industrial noise and a lot more of this kind. 
 
-It comes in two sizes to pick from &#8211; small GUI and big GUI both inside the archive.
+It comes in two sizes to pick from, small GUI and big GUI both inside the archive.

@@ -15,7 +15,7 @@ category:
     url: /projects/code/
 
 tags: 
-  -code
+  - code
   - node
   - cmd
 

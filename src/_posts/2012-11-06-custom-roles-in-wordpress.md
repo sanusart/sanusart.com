@@ -11,15 +11,21 @@ category:
 seo_title: "Custom roles in wordpress"
 seo_description: "Custom roles in wordpress"
 
-categories: gisto angularjs
+categories:
+  - PHP
+  - WordPress
 
-tags: gisto angularjs
+tags:
+  - PHP
+  - WordPress
 
 permalink: /blog/custom-roles-in-wordpress/
 image: wordpress-logo-stacked-rgb.png
 ---
 
 It is a known security suggestion that the website is better off without user with username &#8220;admin&#8221;  in it&#8217;s back-end.
+
+<!--more-->
 
 Another concern (on none security matter) is a site administrator with small or total lack of WordPress knowledge &#8211; something that can lead to mismanaged, messy content entering or even worse &#8211; layout breakage.
 

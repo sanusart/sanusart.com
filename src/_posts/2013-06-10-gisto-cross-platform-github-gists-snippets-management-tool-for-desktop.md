@@ -22,6 +22,8 @@ image: Screenshot-from-2013-07-20-214450.png
 
 In a last past month me and my colleague <a title="@maayanglikser" href="http://twitter.com/maayanglikser" target="_blank">@maayanglikser</a> was busy authoring a little open source project of ours, &#8220;gisto&#8221;. Gisto is an cross-platform code/note snippets management tool using GitHub&#8217;s gist API to save, retrieve and manage code snippets or any textual data on that matter.
 
+<!--more-->
+
 Idea for Gisto cam out of a need of basic code snippets management that can also be shared between team members. We used to use Evernote for about a year now, but the lack of features like syntax highlighting or even basic code formatting are not possible as the editor is more like the one found in Office software.
 
 GitHub's gist service on the other hand, can serve a solid snippet database and adding to this great API &#8211; can be a ready to use back-end to any project that want to make managing snippets a bit easier.

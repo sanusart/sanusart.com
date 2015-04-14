@@ -25,8 +25,6 @@ image: "ds2-vsti_src_1.jpg"
 
 ---
 
-## DS2 VSTi free drum sampler
+DS2 VSTi is an 8 Pad Drum Sampler, a successor of Ds-1. It has the ability to separate each pad to different channel of VST host. Each pad has it's own MIDI triggered note selector, pitch, distortion, flanger, temp delay, LP/HP filters and volume slider. Global reverb is available on the output.
 
-DS2 VSTi is an 8 Pad Drum Sampler &#8211; a successor of Ds-1. It has the ability to separate each pad to different channel of VST host. Each pad has it&#8217;s own MIDI triggered note selector, pitch, distortion, flanger, temp delay, LP/HP filters and volume slider. Global reverb is available on the output.
-
-<a href="http://en.wikipedia.org/wiki/Sampler_%28musical_instrument%29" target="_blank">More on drum samplers</a>
+[More on drum samplers](http://en.wikipedia.org/wiki/Sampler_%28musical_instrument%29 "More on drum samplers at wikipedia")

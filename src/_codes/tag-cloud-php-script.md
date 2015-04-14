@@ -15,10 +15,9 @@ category:
     url: /projects/code/
 
 tags: 
-  -code
+  - code
   - php
-  - tag
-  - cloud
+  - tag cloud
 
 download: "FREEsimplePHPtagCloud.zip"
 image: "tag-cloud-php-script_src_1.png"

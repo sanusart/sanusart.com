@@ -14,6 +14,7 @@ destination: _site
 
 markdown: kramdown
 permalink: pretty
+excerpt_separator: <!--more-->
 
 include: ['_pages','_codes','graphics','vsts','.htaccess']
 exclude: [js/style.js, css/style.scss, css/style.css, css/style.css.map, .gitignore, .bowerrc, package.json, gulpfile.js, node_modules, assets, README.md, bower.json, Gemfile.lock, Gemfile]

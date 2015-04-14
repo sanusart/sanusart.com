@@ -11,9 +11,13 @@ category:
 seo_title: "wordpress unique html class for each post"
 seo_description: "wordpress unique html class for each post"
 
-categories: gisto angularjs
+categories:
+  - PHP
+  - WordPress
 
-tags: gisto angularjs
+tags:
+  - PHP
+  - WordPress
 
 permalink: /blog/wordpress-unique-html-class-for-each-post/
 image: wordpress-logo-stacked-rgb.png
@@ -21,6 +25,8 @@ image: wordpress-logo-stacked-rgb.png
 ---
 
 I often find myself in need to style really particular items, articles or posts on site or a blog. There is a lot of options really, like using `class-name-<?php echo $post->ID;?>` but I wanted to find a way to be able to predict the class selector name and write readable names in stylesheet for future references.
+
+<!--more-->
 
 In order to achieve this behavior we will use the very same function that sanitizes the post title to use as WordPress slug: `sanitize_title();`
 
