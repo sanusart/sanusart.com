@@ -108,7 +108,7 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function () {
 
 gulp.task('watch', function () {
     gulp.watch('src/css/*.scss', ['css']);
-    gulp.watch('src/js/style.js', ['js']);
+    gulp.watch('src/js/script.js', ['js']);
     gulp.watch('src/index.html', ['jekyll-just-reload']);
     gulp.watch([
         'src/_posts/*',
