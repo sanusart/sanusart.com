@@ -54,19 +54,26 @@ $(function () {
     $('.hljs').wrap('<span class="code-block"></span>');
 
     if ($('body').hasClass('page--portfolio')) {
-        var name, description, html_url, stars, forks;
-        $.get('https://api.github.com/users/sanusart/repos', function (res) {
-            console.log(res);
-            $('.page--portfolio').find('div#repos > p b').text(res.length);
 
-            Object.keys(res).forEach(function (key) {
-                if(res[key].fork === false) {
-                    name = res[key].name;
-                    description = res[key].description;
-                    html_url = res[key].html_url;
-                    stars = res[key].stargazers_count;
-                    forks = res[key].forks_count;
-                    $('#repos').append('<p><a class="post-list-item" href="' + html_url + '"><i class="fa fa-angle-right"></i> <span> ' + name + '</span><cite>' + description + '</cite><tags><i class="fa fa-star"></i> '+stars+' | <i class="fa fa-code-fork"></i> '+forks+'</tags></a></p>');
+        var repoMap;
+        var count = 0;
+
+        $.get('https://api.github.com/users/sanusart/repos', function (res) {
+            repoMap = res.map(function (obj) {
+                return {
+                    "name": obj.name,
+                    "description": obj.description,
+                    "html_url": obj.html_url,
+                    "forks": obj.forks,
+                    "stars": obj.stargazers_count,
+                    "isFork": obj.fork
+                };
+            }).sort(function (a, b) {
+                return b.stars - a.stars;
+            }).forEach(function (repo) {
+                if (!repo.isFork) {
+                    $('.page--portfolio').find('div#repos > p b').text(count += 1);
+                    $('#repos').append('<p><a class="post-list-item" href="' + repo.html_url + '"><i class="fa fa-angle-right"></i> <span> ' + repo.name + '</span><cite>' + repo.description + '</cite><tags><i class="fa fa-star"></i> ' + repo.stars + ' | <i class="fa fa-code-fork"></i> ' + repo.forks + '</tags></a></p>');
                 }
             });
         });

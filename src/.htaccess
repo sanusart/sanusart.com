@@ -55,6 +55,8 @@ ErrorDocument 404 /404/
 FileETag None
 
 ### Redirects
+Redirect 301 /cv https://www.sanusart.com/about/cv/
+Redirect 301 /resume https://www.sanusart.com/about/cv/
 Redirect 301 /from https://sanusart.com/about/portfolio/
 Redirect 301 /about-us https://sanusart.com/about/
 Redirect 301 /web https://sanusart.com
