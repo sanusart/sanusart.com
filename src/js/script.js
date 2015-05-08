@@ -3,6 +3,7 @@ $(function () {
     $('code').each(function (i, block) {
         hljs.highlightBlock(block);
     });
+    $('.hljs').wrap('<span class="code-block"></span>');
 
     $('body').on('click', '.totop', function (e) {
         e.preventDefault();
@@ -51,8 +52,6 @@ $(function () {
         $('nav > ul').show();
     }
 
-    $('.hljs').wrap('<span class="code-block"></span>');
-
     if ($('body').hasClass('page--portfolio')) {
 
         var repoMap;
@@ -78,7 +77,7 @@ $(function () {
             });
         });
     }
-});
+}); // doc.ready() end
 
 function isMobile() {
     return (Modernizr.mq('only all and (max-width: 600px)')) ? true : false;

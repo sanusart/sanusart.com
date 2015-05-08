@@ -27,6 +27,11 @@ At August 28th, 2008 I've married my high-school sweetheart Katy and we both liv
 
 Sound engineer by profession but my other big passion is web and currently my main day job is web applications designer and developer.
 
+<div class="buttons">
+<a href="/about/cv/" class="button"><i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i> Resume</a>
+<a href="/about/portfolio" target="_blank" class="button"><i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i> Portfolio</a>
+</div>
+
 # What is Sanus artificium anyway &#8230;
 
 So what is the name mean?
