@@ -1,9 +1,19 @@
 /* Base */
 @import 'bourbon/bourbon';
 
-/* Fonts */
-@import url(https://fonts.googleapis.com/css?family=Exo:300,400,700,900);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
+/* Palette */
+$color-red: #cc333f;
+$color-purple: #392443;
+$color-yellow: #F5DA81;
+$color-blue: #00a0b0;
+$font-color: #fff;
+
+/* Vars */
+$side-padding-width: 120;
+$font-heading:'Gruppo', 'Exo', 'Trebuchet MS', Helvetica, Arial;
+$font-nav:'Gruppo', 'Exo', 'Trebuchet MS', Helvetica, Arial;
+$font-body: 'Fira Sans', 'Helvetica Neue', 'Trebuchet MS', Helvetica, Arial;
+$font-content: 'Fira Sans', 'Helvetica Neue', 'Trebuchet MS', Helvetica, Arial;
 
 @font-face {
   font-family: 'spin_cycle';
@@ -33,6 +43,7 @@
     }
     & span {
       font-size: 20px;
+      font-family: $font-nav;
       display: block;
       line-height: 0;
     }
@@ -88,18 +99,6 @@
   }
 }
 
-/* Palette */
-
-$color-red: #cc333f;
-$color-purple: #392443;
-$color-yellow: #F5DA81;
-$color-blue: #00a0b0;
-$font-color: #fff;
-
-/* Vars */
-
-$side-padding-width: 120;
-
 /* ----------------------------------------------------------*/
 
 * {
@@ -113,7 +112,7 @@ html, body {
 }
 
 body {
-  font-family: 'Open Sans', 'Exo', 'Trebuchet MS', Helvetica, Arial;
+  font-family: $font-body;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
@@ -122,6 +121,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
   font-size: 100%;
   font-weight: 400;
 }
@@ -236,6 +236,7 @@ nav {
             color: $color-blue;
             margin: 32px;
             font-size: 100%;
+            font-family: $font-nav;
           }
         }
       }
@@ -244,6 +245,7 @@ nav {
         color: $color-blue;
         margin: 32px;
         font-size: 150%;
+        font-family: $font-nav;
       }
     }
   }
@@ -288,12 +290,12 @@ content {
   width: calc(1024px - 161px);
   min-height: calc(100% - 237px);
   margin-bottom: -70px;
-  font: 100 16px/24px 'Exo', 'Open sans', sans-serif;
+  font: 100 16px/24px $font-body;
   & .button {
     background: $color-yellow;
     color: $color-purple;
     padding: 5px;
-    font-family: 'Exo', 'Open sans', 'Trebuchet MS', Helvetica, Arial;
+    font-family: $font-body;
     border: 1px solid $color-purple;
     &:hover {
       background: transparent;
@@ -307,7 +309,7 @@ content {
     height: 70px;
   }
   & h1, & h2, & h3 {
-    font-family: 'Open Sans', 'Exo', 'Trebuchet MS', Helvetica, Arial;
+    font-family: $font-heading;
     color: $color-yellow;
     text-transform: capitalize;
     padding: 20px 0px;
@@ -341,7 +343,7 @@ content {
   }
   & p, & ul {
     padding: 0px 0px 16px 0px;
-    font-family: 'Open Sans',"trebuchet ms", Helvetica, Arial, Helvetica, sans-serif;
+    font-family: $font-content;
   }
   & img {
     float: left;
@@ -470,7 +472,7 @@ code {
 
 .code-block {
   border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 10px;
+  padding: 2px 5px;
   border-radius: 5px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5) inset;
   background: rgba(0, 0, 0, 0.2);
@@ -517,9 +519,12 @@ code {
   content {
     margin: 1px 0 -70px 20px;
     width: 90%;
-    font-family: 'Open Sans','trebuchet ms',Helvetica,Arial,Helvetica,sans-serif;
+    font-family: $font-content;
     & h1 {
       line-height: 35px;
+    }
+    & img {
+      width:100%;
     }
   }
 
@@ -600,7 +605,7 @@ code {
 
   footer {
     margin: 1px 0 0 0px;
-    width: 100%;
+    width: 90%;
   }
 
   .bounce {
