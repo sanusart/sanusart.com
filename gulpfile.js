@@ -11,6 +11,8 @@ var concat = require('gulp-concat');
 var args = require('yargs').argv;
 var gulpif = require('gulp-if');
 var inlinesource = require('gulp-inline-source');
+var cssBase64 = require('gulp-css-base64');
+var imgBase64 = require('gulp-inline-image-html');
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build',
@@ -40,6 +42,7 @@ gulp.task('css', ['sass'], function () {
     return gulp.src(css_files)
         .pipe(gulpif(args.min, minifyCss()))
         .pipe(concat('styles.css'))
+        .pipe(cssBase64())
         .pipe(gulp.dest('_site/css'))
         .pipe(browserSync.reload({stream: true}))
         .pipe(gulp.dest('src/css'));
@@ -67,6 +70,7 @@ gulp.task('html', function () {
         spare: true
     };
     gulp.src('_site/**/*.html')
+        .pipe(imgBase64('src'))
         .pipe(gulpif(args.min, minifyHtml(opts)))
         .pipe(gulpif(args.min, inlinesource({compress: true})))
         .pipe(gulp.dest('_site/'));
@@ -79,7 +83,7 @@ gulp.task('fonts', function () {
         .pipe(gulp.dest('src/fonts'));
 });
 
-gulp.task('jekyll-build', ['fonts', 'css', 'js'], function (done) {
+gulp.task('jekyll-build', ['fonts', 'css', 'js', 'html'], function (done) {
     browserSync.notify(messages.jekyllBuild);
     return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--config', '_config.yml,_config.build.yml'], { stdio: 'inherit' }).on('close', done);
 });
@@ -89,7 +93,7 @@ gulp.task('jekyll-simple-build', [], function (done) {
     return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--config', '_config.yml,_config.build.yml'], { stdio: 'inherit' }).on('close', done);
 });
 
-gulp.task('jekyll-build-release', ['fonts', 'css', 'js'], function (done) {
+gulp.task('jekyll-build-release', ['fonts', 'css', 'js', 'html'], function (done) {
     browserSync.notify(messages.jekyllBuild);
     return cp.spawn('bundle', ['exec', 'jekyll', 'build'], { stdio: 'inherit' }).on('close', done);
 });
