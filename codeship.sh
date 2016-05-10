@@ -6,4 +6,4 @@ bundle install
 bourbon install --path=src/css
 npm install
 gulp release --min
-rsync -avzP ~/clone/_site/. $CODESHIP_REMOTE_PATH
+rsync -avz -e "ssh" ~/clone/_site/. $CODESHIP_REMOTE_PATH
