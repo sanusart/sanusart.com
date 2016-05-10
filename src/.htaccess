@@ -64,7 +64,7 @@ Redirect 301 /web https://sanusart.com
 Redirect 301 /FROM https://sanusart.com
 Redirect 301 /support-us/ https://sanusart.com
 Redirect 301 /products/ https://sanusart.com/projects/
-Redirect 301 /music/ https://sanusart.com/projects/music/
+#Redirect 301 /music/ https://sanusart.com/projects/music/
 Redirect 301 /products/scripts/ https://sanusart.com/projects/code/
 Redirect 301 /products/vst-plugins/ https://sanusart.com/projects/vst-plugins/
 Redirect 301 /contact-us/ https://sanusart.com/contact/
