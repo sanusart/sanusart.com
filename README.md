@@ -2,7 +2,7 @@
 
 Rewrite of sanusart.com 
 
-[ ![Codeship Status for sanusart/sanusart.com](https://www.codeship.io/projects/f5869670-2c57-0132-f651-725511a19204/status?branch=master)](https://www.codeship.io/projects/38803)
+[ ![Codeship Status for sanusart/sanusart.com](https://app.codeship.com/projects/f5869670-2c57-0132-f651-725511a19204/status?branch=master)](https://www.codeship.io/projects/38803)
 
 ### Why?
 
